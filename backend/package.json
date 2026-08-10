@@ -1,5 +1,5 @@
 {
-  "name": "hyrox-protocol-api",
+  "name": "ghostcoach-console-api",
   "version": "1.0.0",
   "private": true,
   "main": "server.js",

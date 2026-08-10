@@ -8,9 +8,9 @@ app.use(express.json({ limit: "1mb" }));
 
 const dbConfig = {
   host: process.env.DB_HOST || "db",
-  user: process.env.DB_USER || "hyrox",
+  user: process.env.DB_USER || "ghostcoach",
   password: process.env.DB_PASS || "",
-  database: process.env.DB_NAME || "hyrox_protocol",
+  database: process.env.DB_NAME || "ghostcoach_console",
   waitForConnections: true,
   connectionLimit: 10
 };

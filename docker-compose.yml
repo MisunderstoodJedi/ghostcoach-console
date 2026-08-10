@@ -1,12 +1,12 @@
 services:
   db:
     image: mysql:8.0
-    container_name: hyrox-protocol-db
+    container_name: ghostcoach_console_db
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Set MYSQL_ROOT_PASSWORD in .env}
-      MYSQL_DATABASE: ${MYSQL_DATABASE:-hyrox_protocol}
-      MYSQL_USER: ${MYSQL_USER:-hyrox}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-ghostcoach_console}
+      MYSQL_USER: ${MYSQL_USER:-ghostcoach}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Set MYSQL_PASSWORD in .env}
     volumes:
       - db_data:/var/lib/mysql
@@ -18,20 +18,20 @@ services:
 
   api:
     build: ./backend
-    container_name: hyrox-protocol-api
+    container_name: ghostcoach_console_api
     restart: unless-stopped
     environment:
       DB_HOST: db
-      DB_USER: ${MYSQL_USER:-hyrox}
+      DB_USER: ${MYSQL_USER:-ghostcoach}
       DB_PASS: ${MYSQL_PASSWORD:?Set MYSQL_PASSWORD in .env}
-      DB_NAME: ${MYSQL_DATABASE:-hyrox_protocol}
+      DB_NAME: ${MYSQL_DATABASE:-ghostcoach_console}
     depends_on:
       db:
         condition: service_healthy
 
   web:
     build: .
-    container_name: hyrox-protocol-web
+    container_name: ghostcoach_console_web
     restart: unless-stopped
     ports:
       - "3344:80"

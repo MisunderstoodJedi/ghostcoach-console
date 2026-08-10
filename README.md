@@ -72,9 +72,9 @@ http://192.168.8.209:8091
 
 | Container | Role | Port |
 | --- | --- | --- |
-| hyrox-protocol-web | nginx + frontend | 192.168.8.209:3344 |
-| hyrox-protocol-api | Node.js REST API | internal 4000 |
-| hyrox-protocol-db | MySQL 8 | internal |
+| ghostcoach_console_web | nginx + frontend | 192.168.8.209:3344 |
+| ghostcoach_console_api | Node.js REST API | internal 4000 |
+| ghostcoach_console_db | MySQL 8 | internal |
 
 ## Commands
 
