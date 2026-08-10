@@ -105,11 +105,11 @@ function hyroxStrengthWork(week) {
   const carries = level <= 1 ? "4 x 30-40 m" : level === 2 ? "5 x 50 m" : "6 x 50-60 m";
   return [
     "Warm-up: 5-8 min easy row, bike or treadmill walk",
-    `Goblet squat or double-kettlebell front squat: ${sets} x ${reps}`,
-    `Kettlebell Romanian deadlift: ${sets} x ${reps}`,
-    `Dumbbell floor press, push-up or dip progression: ${sets} x 8-12`,
+    `Goblet squat with 16 kg or double-kettlebell front squat with 2 x 16 kg: ${sets} x ${reps}`,
+    `Kettlebell Romanian deadlift with 2 x 16 kg: ${sets} x ${reps}`,
+    `Dumbbell floor press with 2 x 10 kg, push-up or dip progression: ${sets} x 8-12`,
     `Pull-up progression, controlled negatives or hanging knee raise: ${sets} x 5-10`,
-    `Farmers carry or water-bag bear-hug carry: ${carries}`,
+    `Farmers carry with 2 x 16 kg or water-bag bear-hug carry (10-20 kg): ${carries}`,
     "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
     "Grip: powerball or grip donut, 2 short easy rounds"
   ];
@@ -135,9 +135,9 @@ function hyroxCircuitWork(week) {
       `${rounds} rounds at controlled race practice effort`,
       run,
       "SkiErg: 500-750 m smooth technique",
-      "Sled push: 2-4 lengths, build load gradually",
-      "Sled pull: 2-4 lengths, smooth rope work",
-      "Wall balls: 3 x 10-20 clean reps",
+      "Sled push: 2-4 lengths, light/moderate gym load",
+      "Sled pull: 2-4 lengths, light/moderate gym load",
+      "Wall balls with 6 kg ball: 3 x 10-20 clean reps",
       "Stop with one good rep still in the tank"
     ];
   }
@@ -145,10 +145,10 @@ function hyroxCircuitWork(week) {
     `${rounds} rounds at controlled effort`,
     run,
     `Rower: ${row}`,
-    `Kettlebell swings or fast high pulls: ${level <= 1 ? "10-12" : "15-20"} reps`,
-    `Incline treadmill march with vest or unloaded: ${level <= 1 ? "2 min" : "3 min"}`,
-    `Water-bag lunges or reverse lunges: ${level <= 1 ? "6/leg" : "8-10/leg"}`,
-    `Dumbbell thrusters: ${level <= 1 ? "8-10" : "12-15"} reps`,
+    `Kettlebell swings with 16 kg or fast high pulls: ${level <= 1 ? "10-12" : "15-20"} reps`,
+    `Incline treadmill march with vest (5-10 kg) or unloaded: ${level <= 1 ? "2 min" : "3 min"}`,
+    `Water-bag lunges with 10-20 kg or bodyweight reverse lunges: ${level <= 1 ? "6/leg" : "8-10/leg"}`,
+    `Dumbbell thrusters with 2 x 10 kg: ${level <= 1 ? "8-10" : "12-15"} reps`,
     "Rest enough to keep movement tidy"
   ];
 }
@@ -157,9 +157,9 @@ function strengthBlockA(week) {
   const level = week <= 4 ? 0 : week <= 8 ? 1 : week <= 12 ? 2 : 3;
   const sets = level <= 2 ? 3 : 4;
   return [
-    `Goblet squat: ${sets} x 8-12`,
-    `Dumbbell floor press or push-up: ${sets} x 8-12`,
-    `Farmers carry with 16 kg kettlebells: ${sets} x 30-40 m`,
+    `Goblet squat with 16 kg kettlebell: ${sets} x 8-12`,
+    `Dumbbell floor press with 2 x 10 kg or push-up: ${sets} x 8-12`,
+    `Farmers carry with 2 x 16 kg kettlebells: ${sets} x 30-40 m`,
     "Dead bug: 3 x 8/side",
     "Front plank: 3 x 30-45 sec"
   ];
@@ -168,9 +168,10 @@ function strengthBlockA(week) {
 function strengthBlockB(week) {
   const level = week <= 4 ? 0 : week <= 8 ? 1 : week <= 12 ? 2 : 3;
   const sets = level <= 2 ? 3 : 4;
+  const lungeLoad = week <= 4 ? "bodyweight" : "2 x 10 kg dumbbells";
   return [
-    `Kettlebell Romanian deadlift: ${sets} x 8-12`,
-    `Reverse lunge: ${sets} x 6-8/leg`,
+    `Kettlebell Romanian deadlift with 2 x 16 kg: ${sets} x 8-12`,
+    `Reverse lunge (${lungeLoad}): ${sets} x 6-8/leg`,
     `Pull-up negative, assisted pull-up or body-row pattern: ${sets} x 5-8`,
     "Hanging knee raise or lying leg raise: 3 x 8-12",
     "Side plank: 3 x 20-40 sec/side"
@@ -182,9 +183,9 @@ function strengthBlockC(week) {
   const sets = level <= 2 ? 3 : 4;
   return [
     "Bike or row easy warm-up: 5-8 min",
-    `Weighted-vest step-up or split squat: ${sets} x 8/leg`,
-    `Dumbbell row: ${sets} x 10-12/side`,
-    `Water-bag bear hug carry: ${sets} x 30-40 m`,
+    `Weighted-vest step-up (5-10 kg) or split squat with 2 x 10 kg dumbbells: ${sets} x 8/leg`,
+    `Dumbbell row with 10 kg: ${sets} x 10-12/side`,
+    `Water-bag bear hug carry (10-20 kg): ${sets} x 30-40 m`,
     "Powerball or grip donut: 3 short rounds"
   ];
 }
@@ -240,13 +241,13 @@ function hyroxSessionForDate(date, week) {
       title: "HYROX Race Day",
       work: [
         "Run 1 km + SkiErg 1000 m",
-        "Run 1 km + sled push 50 m",
-        "Run 1 km + sled pull 50 m",
+        "Run 1 km + sled push 50 m (102/152/202 kg incl. sled by division)",
+        "Run 1 km + sled pull 50 m (78/103/153 kg incl. sled by division)",
         "Run 1 km + burpee broad jumps 80 m",
         "Run 1 km + row 1000 m",
-        "Run 1 km + farmers carry 200 m",
-        "Run 1 km + sandbag lunges 100 m",
-        "Run 1 km + wall balls 100 reps"
+        "Run 1 km + farmers carry 200 m (2 x 16/24/32 kg by division)",
+        "Run 1 km + sandbag lunges 100 m (10/20/30 kg by division)",
+        "Run 1 km + wall balls 100 reps (4/6/9 kg by division)"
       ]
     };
   }
@@ -260,12 +261,12 @@ function hyroxSessionForDate(date, week) {
     return {
       type: "mixed",
       title: taper ? "Short Mixed Rehearsal" : "Compromised Running",
-      work: taper ? ["2 relaxed rounds", "400 m run/walk", "250 m row", "Light carries or lunges", "Stop feeling sharp"] : [
+      work: taper ? ["2 relaxed rounds", "400 m run/walk", "250 m row", "Light carry with 10 kg or bodyweight lunges", "Stop feeling sharp"] : [
         `${rounds} steady rounds`,
         `${level <= 1 ? "500 m" : level === 2 ? "750 m" : "1 km"} run/walk`,
         `${level <= 1 ? "300 m" : level === 2 ? "500 m" : "750 m"} row`,
-        `Farmers carry: ${level <= 1 ? "40 m" : "60 m"}`,
-        `Water-bag or reverse lunges: ${level <= 1 ? "6/leg" : "8-10/leg"}`,
+        `Farmers carry with 2 x 16 kg: ${level <= 1 ? "40 m" : "60 m"}`,
+        `Water-bag lunges with 10-20 kg or bodyweight reverse lunges: ${level <= 1 ? "6/leg" : "8-10/leg"}`,
         "Easy walk between rounds as needed"
       ]
     };
@@ -293,7 +294,7 @@ function distanceKmFromText(text) {
 
 function parseWorkout(line) {
   const sets = line.match(/:\s*(\d+)\s*x\s*(.+)$/i);
-  if (sets) return { name: line.split(":")[0], sets: Number(sets[1]), reps: sets[2] };
+  if (sets) return { name: line.slice(0, sets.index).trim(), sets: Number(sets[1]), reps: sets[2] };
   const rounds = line.match(/^(\d+)\s+(?:relaxed |steady )?rounds?/i);
   if (rounds) return { name: line, sets: Number(rounds[1]), reps: "round" };
   const distanceKm = distanceKmFromText(line);

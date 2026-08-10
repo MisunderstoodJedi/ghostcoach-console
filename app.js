@@ -54,13 +54,14 @@ const baseKit = {
   bike: "Stationary bike",
   kettlebells16: "2 x 16 kg kettlebells",
   dumbbells10: "2 x 10 kg dumbbells",
-  vest: "Weighted vest",
+  vest: "Weighted vest (5-10 kg if adjustable)",
   bars: "Pull-up / dip / leg raise station",
   mat: "Pilates mat",
-  bag: "Water shoulder bag",
+  bag: "Water shoulder bag / sandbag (10-20 kg fill)",
   rope: "Skipping rope",
   park: "Park or outdoor route",
-  gym: "Gym access"
+  gym: "Gym access (SkiErg, sled, wall balls)",
+  raceLoads: "HYROX race loads by division: sleds 102/152/202 kg push, 78/103/153 kg pull, carries 2 x 16/24/32 kg, sandbag 10/20/30 kg, wall ball 4/6/9 kg"
 };
 
 const beginner5kPlan = [
@@ -314,9 +315,9 @@ function supportSets(level) {
 function strengthBlockA(week) {
   const sets = supportSets(supportLevelForRunWeek(week));
   return [
-    `Goblet squat: ${sets} x 8-12`,
-    `Dumbbell floor press or push-up: ${sets} x 8-12`,
-    `Farmers carry with 16 kg kettlebells: ${sets} x 30-40 m`,
+    `Goblet squat with 16 kg kettlebell: ${sets} x 8-12`,
+    `Dumbbell floor press with 2 x 10 kg or push-up: ${sets} x 8-12`,
+    `Farmers carry with 2 x 16 kg kettlebells: ${sets} x 30-40 m`,
     "Dead bug: 3 x 8/side",
     "Front plank: 3 x 30-45 sec"
   ];
@@ -324,9 +325,10 @@ function strengthBlockA(week) {
 
 function strengthBlockB(week) {
   const sets = supportSets(supportLevelForRunWeek(week));
+  const lungeLoad = week <= 4 ? "bodyweight" : "2 x 10 kg dumbbells";
   return [
-    `Kettlebell Romanian deadlift: ${sets} x 8-12`,
-    `Reverse lunge: ${sets} x 6-8/leg`,
+    `Kettlebell Romanian deadlift with 2 x 16 kg: ${sets} x 8-12`,
+    `Reverse lunge (${lungeLoad}): ${sets} x 6-8/leg`,
     `Pull-up negative, assisted pull-up or body-row pattern: ${sets} x 5-8`,
     "Hanging knee raise or lying leg raise: 3 x 8-12",
     "Side plank: 3 x 20-40 sec/side"
@@ -337,9 +339,9 @@ function strengthBlockC(week) {
   const sets = supportSets(supportLevelForRunWeek(week));
   return [
     `Bike or row easy warm-up: 5-8 min`,
-    `Weighted-vest step-up or split squat: ${sets} x 8/leg`,
-    `Dumbbell row: ${sets} x 10-12/side`,
-    `Water-bag bear hug carry: ${sets} x 30-40 m`,
+    `Weighted-vest step-up (5-10 kg) or split squat with 2 x 10 kg dumbbells: ${sets} x 8/leg`,
+    `Dumbbell row with 10 kg: ${sets} x 10-12/side`,
+    `Water-bag bear hug carry (10-20 kg): ${sets} x 30-40 m`,
     "Powerball or grip donut: 3 short rounds"
   ];
 }
@@ -704,11 +706,11 @@ function hyroxStrengthBlock(week) {
   const level = hyroxLevelForWeek(week);
   const sets = isDeloadWeek(week) ? 2 : level <= 1 ? 3 : 4;
   return [
-    `Double-kettlebell front squat or goblet squat: ${sets} x ${level <= 1 ? "8-10" : "6-8"}`,
-    `Kettlebell Romanian deadlift: ${sets} x ${level <= 1 ? "10-12" : "8-10"}`,
-    `Dumbbell press or dip progression: ${sets} x 8-12`,
+    `Double-kettlebell front squat with 2 x 16 kg or goblet squat with 16 kg: ${sets} x ${level <= 1 ? "8-10" : "6-8"}`,
+    `Kettlebell Romanian deadlift with 2 x 16 kg: ${sets} x ${level <= 1 ? "10-12" : "8-10"}`,
+    `Dumbbell press with 2 x 10 kg or dip progression: ${sets} x 8-12`,
     `Pull-up progression or hanging knee raise: ${sets} x 5-10`,
-    `Farmers carry or water-bag carry: ${sets} x ${level <= 1 ? "30-40 m" : "40-60 m"}`,
+    `Farmers carry with 2 x 16 kg or water-bag carry (10-20 kg): ${sets} x ${level <= 1 ? "30-40 m" : "40-60 m"}`,
     "Dead bug + side plank: 2-3 rounds",
     "Grip finisher: powerball or grip donut, 2 easy rounds"
   ];
@@ -732,18 +734,18 @@ function hyroxSkillBlock(week) {
       `${rounds} controlled rounds`,
       "Run 400-800 m",
       "SkiErg 500-750 m",
-      "Sled push 2-4 lengths",
-      "Sled pull 2-4 lengths",
-      "Wall balls 10-20 reps"
+      "Sled push 2-4 lengths, light/moderate gym load",
+      "Sled pull 2-4 lengths, light/moderate gym load",
+      "Wall balls with 6 kg ball: 10-20 reps"
     ];
   }
   return [
     `${rounds} controlled rounds`,
     "Run 400-800 m",
     `Row ${level <= 1 ? "300 m" : level === 2 ? "500 m" : "750 m"}`,
-    `Kettlebell swings ${level <= 1 ? "10-12" : "15-20"} reps`,
-    `Weighted-vest treadmill march ${level <= 1 ? "2 min" : "3 min"}`,
-    `Dumbbell thrusters ${level <= 1 ? "8-10" : "12-15"} reps`
+    `Kettlebell swings with 16 kg ${level <= 1 ? "10-12" : "15-20"} reps`,
+    `Weighted-vest treadmill march (5-10 kg) ${level <= 1 ? "2 min" : "3 min"}`,
+    `Dumbbell thrusters with 2 x 10 kg ${level <= 1 ? "8-10" : "12-15"} reps`
   ];
 }
 
@@ -754,8 +756,8 @@ function hyroxMixedBlock(week) {
     `${rounds} steady rounds`,
     `${level <= 1 ? "500 m" : level === 2 ? "750 m" : "1 km"} run`,
     `${level <= 1 ? "300 m" : level === 2 ? "500 m" : "750 m"} row`,
-    `Farmers carry ${level <= 1 ? "40 m" : "60 m"}`,
-    `Water-bag lunges ${level <= 1 ? "6/leg" : "8-10/leg"}`
+    `Farmers carry with 2 x 16 kg ${level <= 1 ? "40 m" : "60 m"}`,
+    `Water-bag lunges with 10-20 kg ${level <= 1 ? "6/leg" : "8-10/leg"}`
   ];
 }
 
@@ -787,28 +789,28 @@ function hyroxSessionForDate(date, week) {
           title: "Race order",
           items: [
             "Run 1 km + SkiErg 1000 m",
-            "Run 1 km + sled push 50 m",
-            "Run 1 km + sled pull 50 m",
+            "Run 1 km + sled push 50 m (102/152/202 kg incl. sled by division)",
+            "Run 1 km + sled pull 50 m (78/103/153 kg incl. sled by division)",
             "Run 1 km + burpee broad jumps 80 m",
             "Run 1 km + row 1000 m",
-            "Run 1 km + farmers carry 200 m",
-            "Run 1 km + sandbag lunges 100 m",
-            "Run 1 km + wall balls 100 reps"
+            "Run 1 km + farmers carry 200 m (2 x 16/24/32 kg by division)",
+            "Run 1 km + sandbag lunges 100 m (10/20/30 kg by division)",
+            "Run 1 km + wall balls 100 reps (4/6/9 kg by division)"
           ],
           checklist: [
             "Run 1 km + SkiErg 1000 m",
-            "Run 1 km + sled push 50 m",
-            "Run 1 km + sled pull 50 m",
+            "Run 1 km + sled push 50 m (102/152/202 kg incl. sled by division)",
+            "Run 1 km + sled pull 50 m (78/103/153 kg incl. sled by division)",
             "Run 1 km + burpee broad jumps 80 m",
             "Run 1 km + row 1000 m",
-            "Run 1 km + farmers carry 200 m",
-            "Run 1 km + sandbag lunges 100 m",
-            "Run 1 km + wall balls 100 reps"
+            "Run 1 km + farmers carry 200 m (2 x 16/24/32 kg by division)",
+            "Run 1 km + sandbag lunges 100 m (10/20/30 kg by division)",
+            "Run 1 km + wall balls 100 reps (4/6/9 kg by division)"
           ]
         }
       ],
       notes: ["Start controlled.", "Walk briefly before your form collapses.", "Finish proud."],
-      equipment: ["park", "gym"],
+      equipment: ["park", "gym", "raceLoads"],
       imageKey: "hyrox"
     });
   }
@@ -933,7 +935,7 @@ function hyroxSessionForDate(date, week) {
       intensity: taper ? "Controlled" : "Moderate to hard",
       objective: "Teach the body to run after stations and keep the effort honest without panic.",
       segments: [
-        { title: "Mixed session", items: taper ? ["2 easy rounds", "400 m run", "250 m row", "Light carry or lunges"] : hyroxMixedBlock(week), checklist: taper ? ["2 easy rounds", "400 m run", "250 m row", "Light carry or lunges"] : hyroxMixedBlock(week) }
+        { title: "Mixed session", items: taper ? ["2 easy rounds", "400 m run", "250 m row", "Light carry with 10 kg or bodyweight lunges"] : hyroxMixedBlock(week), checklist: taper ? ["2 easy rounds", "400 m run", "250 m row", "Light carry with 10 kg or bodyweight lunges"] : hyroxMixedBlock(week) }
       ],
       notes: ["Steady pressure, not chaos."],
       equipment: ["rower", "treadmill", "kettlebells16", "bag", "park"],
@@ -991,6 +993,37 @@ function sessionDistanceKm(session) {
   const km = Array.from(text.matchAll(/(\d+(?:\.\d+)?)\s*km/gi)).reduce((sum, match) => sum + Number(match[1]), 0);
   const miles = Array.from(text.matchAll(/(\d+(?:\.\d+)?)\s*mi\b/gi)).reduce((sum, match) => sum + Number(match[1]) * 1.60934, 0);
   return km + miles;
+}
+
+function equipmentForSessions(sessions) {
+  const order = Object.keys(baseKit);
+  const ids = new Set(sessions.flatMap(session => session.equipment || []));
+  return Array.from(ids)
+    .sort((a, b) => order.indexOf(a) - order.indexOf(b))
+    .map(key => ({ key, label: baseKit[key] || key }));
+}
+
+function programmeEquipmentHtml(sessions) {
+  const equipment = equipmentForSessions(sessions);
+  const needsGym = equipment.some(item => item.key === "gym");
+  const note = needsGym
+    ? "Gym recommended this week for station-specific work."
+    : "Home-friendly if you have the listed kit available.";
+  return `
+    <section class="panel equipment-panel">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Equipment check</p>
+          <h2>Kit and loading for this week</h2>
+        </div>
+        <span class="meta-pill">${needsGym ? "Gym" : "Home"}</span>
+      </div>
+      <p class="panel-copy">${note}</p>
+      <div class="equipment-list">
+        ${equipment.length ? equipment.map(item => `<span>${escapeHtml(item.label)}</span>`).join("") : "<span>No equipment needed</span>"}
+      </div>
+    </section>
+  `;
 }
 
 function latestCheckin() {
@@ -1296,6 +1329,7 @@ function renderProgramme() {
     <div><span>Focus</span><b>${phase.focus}</b></div>
     <div><span>Planned distance</span><b>${sessions.reduce((sum, session) => sum + sessionDistanceKm(session), 0).toFixed(1)} km</b></div>
   `;
+  document.getElementById("equipmentSummary").innerHTML = programmeEquipmentHtml(sessions);
   document.getElementById("weekPlan").innerHTML = sessions.map(sessionCardHtml).join("");
 }
 

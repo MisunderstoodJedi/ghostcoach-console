@@ -549,6 +549,25 @@ h3 {
   background: rgba(15, 23, 18, 0.74);
 }
 
+.equipment-panel {
+  margin-bottom: 16px;
+}
+
+.equipment-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.equipment-list span {
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(9, 13, 11, 0.34);
+  color: #d7e8da;
+  font-size: 0.88rem;
+}
+
 .session-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
