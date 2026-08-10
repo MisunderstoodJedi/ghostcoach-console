@@ -76,14 +76,14 @@ const beginner5kPlan = [
 ];
 
 const beginner10kPlan = [
-  { mon: "Rest", tue: "2.5 mi run", wed: "30 min cross", thu: "2 mi run", fri: "Rest", sat: "40 min cross", sun: "3 mi run" },
-  { mon: "Rest", tue: "2.5 mi run", wed: "30 min cross", thu: "2 mi run", fri: "Rest", sat: "40 min cross", sun: "3.5 mi run" },
-  { mon: "Rest", tue: "2.5 mi run", wed: "35 min cross", thu: "2 mi run", fri: "Rest", sat: "50 min cross", sun: "4 mi run" },
-  { mon: "Rest", tue: "3 mi run", wed: "35 min cross", thu: "2 mi run", fri: "Rest", sat: "50 min cross", sun: "4 mi run" },
-  { mon: "Rest", tue: "3 mi run", wed: "40 min cross", thu: "2 mi run", fri: "Rest", sat: "60 min cross", sun: "4.5 mi run" },
-  { mon: "Rest", tue: "3 mi run", wed: "40 min cross", thu: "2 mi run", fri: "Rest", sat: "60 min cross", sun: "5 mi run" },
-  { mon: "Rest", tue: "3 mi run", wed: "45 min cross", thu: "2 mi run", fri: "Rest", sat: "60 min cross", sun: "5.5 mi run" },
-  { mon: "Rest", tue: "3 mi run", wed: "30 min cross", thu: "2 mi run", fri: "Rest", sat: "Rest", sun: "10K Run" }
+  { mon: "Rest", tue: "4.0 km run", wed: "30 min cross", thu: "3.2 km run", fri: "Rest", sat: "40 min cross", sun: "4.8 km run" },
+  { mon: "Rest", tue: "4.0 km run", wed: "30 min cross", thu: "3.2 km run", fri: "Rest", sat: "40 min cross", sun: "5.6 km run" },
+  { mon: "Rest", tue: "4.0 km run", wed: "35 min cross", thu: "3.2 km run", fri: "Rest", sat: "50 min cross", sun: "6.4 km run" },
+  { mon: "Rest", tue: "4.8 km run", wed: "35 min cross", thu: "3.2 km run", fri: "Rest", sat: "50 min cross", sun: "6.4 km run" },
+  { mon: "Rest", tue: "4.8 km run", wed: "40 min cross", thu: "3.2 km run", fri: "Rest", sat: "60 min cross", sun: "7.2 km run" },
+  { mon: "Rest", tue: "4.8 km run", wed: "40 min cross", thu: "3.2 km run", fri: "Rest", sat: "60 min cross", sun: "8.0 km run" },
+  { mon: "Rest", tue: "4.8 km run", wed: "45 min cross", thu: "3.2 km run", fri: "Rest", sat: "60 min cross", sun: "8.8 km run" },
+  { mon: "Rest", tue: "4.8 km run", wed: "30 min cross", thu: "3.2 km run", fri: "Rest", sat: "Rest", sun: "10 km run" }
 ];
 
 let apiOnline = false;
@@ -359,6 +359,7 @@ function runSessionForDate(date, week) {
   const item = runItemForDate(week, date);
   const weekday = weekdayIndex(date);
   const lower = String(item).toLowerCase();
+  const isTenKBenchmark = lower.includes("10k run") || lower.includes("10 km run");
   const minutes = Number(String(item).match(/(\d+)\s*min/i)?.[1] || 0);
   const km = Number(String(item).match(/(\d+(?:\.\d+)?)\s*km/i)?.[1] || 0);
   const miles = Number(String(item).match(/(\d+(?:\.\d+)?)\s*mi/i)?.[1] || 0);
@@ -603,13 +604,13 @@ function runSessionForDate(date, week) {
   return sessionTemplate({
     week,
     date,
-    type: lower.includes("10k run") ? "Run" : "Run",
-    title: lower.includes("10k run") ? "10K Benchmark" : "Long Run",
-    duration: lower.includes("10k run") ? 120 : runDuration,
-    intensity: lower.includes("10k run") ? "Steady finish effort" : "Easy to steady",
-    objective: lower.includes("10k run") ? "Use the 10K as a confidence marker, not a verdict on the whole plan." : "Let the Sunday run extend your aerobic base without chasing pace.",
+    type: isTenKBenchmark ? "Run" : "Run",
+    title: isTenKBenchmark ? "10K Benchmark" : "Long Run",
+    duration: isTenKBenchmark ? 120 : runDuration,
+    intensity: isTenKBenchmark ? "Steady finish effort" : "Easy to steady",
+    objective: isTenKBenchmark ? "Use the 10K as a confidence marker, not a verdict on the whole plan." : "Let the Sunday run extend your aerobic base without chasing pace.",
     segments: [{ title: "Supplied 10K plan", items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] }],
-    notes: [lower.includes("10k run") ? "Record the time and move on." : "Easy enough that form stays tidy."],
+    notes: [isTenKBenchmark ? "Record the time and move on." : "Easy enough that form stays tidy."],
     equipment: ["treadmill", "park"],
     imageKey: "run"
   });

@@ -18,14 +18,14 @@ const beginner5kPlan = [
 ];
 
 const beginner10kPlan = [
-  { mon: "Rest", tue: "2.5 mi run", wed: "30 min cross", thu: "2 mi run", fri: "Rest", sat: "40 min cross", sun: "3 mi run" },
-  { mon: "Rest", tue: "2.5 mi run", wed: "30 min cross", thu: "2 mi run", fri: "Rest", sat: "40 min cross", sun: "3.5 mi run" },
-  { mon: "Rest", tue: "2.5 mi run", wed: "35 min cross", thu: "2 mi run", fri: "Rest", sat: "50 min cross", sun: "4 mi run" },
-  { mon: "Rest", tue: "3 mi run", wed: "35 min cross", thu: "2 mi run", fri: "Rest", sat: "50 min cross", sun: "4 mi run" },
-  { mon: "Rest", tue: "3 mi run", wed: "40 min cross", thu: "2 mi run", fri: "Rest", sat: "60 min cross", sun: "4.5 mi run" },
-  { mon: "Rest", tue: "3 mi run", wed: "40 min cross", thu: "2 mi run", fri: "Rest", sat: "60 min cross", sun: "5 mi run" },
-  { mon: "Rest", tue: "3 mi run", wed: "45 min cross", thu: "2 mi run", fri: "Rest", sat: "60 min cross", sun: "5.5 mi run" },
-  { mon: "Rest", tue: "3 mi run", wed: "30 min cross", thu: "2 mi run", fri: "Rest", sat: "Rest", sun: "10K Run" }
+  { mon: "Rest", tue: "4.0 km run", wed: "30 min cross", thu: "3.2 km run", fri: "Rest", sat: "40 min cross", sun: "4.8 km run" },
+  { mon: "Rest", tue: "4.0 km run", wed: "30 min cross", thu: "3.2 km run", fri: "Rest", sat: "40 min cross", sun: "5.6 km run" },
+  { mon: "Rest", tue: "4.0 km run", wed: "35 min cross", thu: "3.2 km run", fri: "Rest", sat: "50 min cross", sun: "6.4 km run" },
+  { mon: "Rest", tue: "4.8 km run", wed: "35 min cross", thu: "3.2 km run", fri: "Rest", sat: "50 min cross", sun: "6.4 km run" },
+  { mon: "Rest", tue: "4.8 km run", wed: "40 min cross", thu: "3.2 km run", fri: "Rest", sat: "60 min cross", sun: "7.2 km run" },
+  { mon: "Rest", tue: "4.8 km run", wed: "40 min cross", thu: "3.2 km run", fri: "Rest", sat: "60 min cross", sun: "8.0 km run" },
+  { mon: "Rest", tue: "4.8 km run", wed: "45 min cross", thu: "3.2 km run", fri: "Rest", sat: "60 min cross", sun: "8.8 km run" },
+  { mon: "Rest", tue: "4.8 km run", wed: "30 min cross", thu: "3.2 km run", fri: "Rest", sat: "Rest", sun: "10 km run" }
 ];
 
 function addDays(date, amount) {
@@ -173,6 +173,7 @@ function runSessionForDate(date, week) {
   const item = runItemForDate(week, date);
   const plan = week <= 8 ? "5K" : "10K";
   const lower = item.toLowerCase();
+  const isTenKBenchmark = lower.includes("10k run") || lower.includes("10 km run");
   const weekday = weekdayIndex(date);
   if (week <= 8) {
     if (weekday === 1) return { type: "strength", title: "Strength A + Optional Run/Walk", work: [`${plan} plan: ${item}`, ...strengthBlockA(week)] };
@@ -192,9 +193,9 @@ function runSessionForDate(date, week) {
     if (weekday === 4) return { type: "run", title: "Run + Core Finish", work: [`${plan} plan: ${item}`, "Core finish: dead bug, side plank, mobility"] };
     if (weekday === 5) return { type: "rest", title: "Rest Day", work: [`${plan} plan: Rest`] };
     if (weekday === 6) return { type: "cross-training", title: "Cross-Training + Strength C", work: [`${plan} plan: ${item}`, ...strengthBlockC(week)] };
-    return { type: "run", title: lower.includes("10k run") ? "10K Benchmark" : "Long Run", work: [`${plan} plan: ${item}`] };
+    return { type: "run", title: isTenKBenchmark ? "10K Benchmark" : "Long Run", work: [`${plan} plan: ${item}`] };
   }
-  if (lower.includes("race") || lower.includes("10k run")) return { type: "run", title: `${plan} Benchmark`, work: [`${plan} plan: ${item}`] };
+  if (lower.includes("race") || isTenKBenchmark) return { type: "run", title: `${plan} Benchmark`, work: [`${plan} plan: ${item}`] };
   if (lower === "rest or run/walk") return { type: "optional", title: "Rest Or Run/Walk", work: [`${plan} plan: ${item}`] };
   if (lower.startsWith("rest")) return { type: "rest", title: "Rest Day", work: [`${plan} plan: ${item}`] };
   if (lower.includes("cross")) return { type: "cross-training", title: "Easy Cross-Training", work: [`${plan} plan: ${item}`] };
@@ -251,13 +252,14 @@ function sessionForDate(date, week) {
 }
 
 function distanceKmFromText(text) {
-  if (/10k/i.test(text)) return 10;
-  if (/5k/i.test(text)) return 5;
-  const km = text.match(/(\d+(?:\.\d+)?)\s*km/i);
+  const workoutText = text.replace(/^\s*(?:5K|10K)\s+plan:\s*/i, "");
+  if (/^10k(?:\s+run)?$/i.test(workoutText)) return 10;
+  if (/^5k(?:\s+race)?$/i.test(workoutText)) return 5;
+  const km = workoutText.match(/(\d+(?:\.\d+)?)\s*km/i);
   if (km) return Number(km[1]);
-  const miles = text.match(/(\d+(?:\.\d+)?)\s*mi\b/i);
+  const miles = workoutText.match(/(\d+(?:\.\d+)?)\s*mi\b/i);
   if (miles) return Number(miles[1]) * 1.60934;
-  const metres = text.match(/(\d+)\s*m\b/i);
+  const metres = workoutText.match(/(\d+)\s*m\b/i);
   return metres ? Number(metres[1]) / 1000 : null;
 }
 

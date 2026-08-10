@@ -12,8 +12,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -57,11 +56,11 @@
           {
             "name": "5K plan: 2.4 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "2.4 km",
+            "distanceKm": 2.4
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 2.4
       }
     ]
   },
@@ -78,8 +77,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -123,8 +121,8 @@
           {
             "name": "5K plan: 2.4 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "2.4 km",
+            "distanceKm": 2.4
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -132,7 +130,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 2.4
       }
     ]
   },
@@ -149,8 +147,7 @@
           {
             "name": "5K plan: Rest",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           }
         ]
       }
@@ -169,11 +166,11 @@
           {
             "name": "5K plan: 2.4 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "2.4 km",
+            "distanceKm": 2.4
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 2.4
       }
     ]
   },
@@ -190,8 +187,7 @@
           {
             "name": "5K plan: 30 min walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "30 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -240,8 +236,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -285,11 +280,11 @@
           {
             "name": "5K plan: 2.8 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "2.8 km",
+            "distanceKm": 2.8
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 2.8
       }
     ]
   },
@@ -306,8 +301,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -351,8 +345,8 @@
           {
             "name": "5K plan: 2.4 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "2.4 km",
+            "distanceKm": 2.4
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -360,7 +354,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 2.4
       }
     ]
   },
@@ -377,8 +371,7 @@
           {
             "name": "5K plan: Rest",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           }
         ]
       }
@@ -397,11 +390,11 @@
           {
             "name": "5K plan: 2.8 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "2.8 km",
+            "distanceKm": 2.8
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 2.8
       }
     ]
   },
@@ -418,8 +411,7 @@
           {
             "name": "5K plan: 35 min walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "35 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -468,8 +460,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -513,11 +504,11 @@
           {
             "name": "5K plan: 3.2 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 3.2
       }
     ]
   },
@@ -534,8 +525,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -579,8 +569,8 @@
           {
             "name": "5K plan: 2.4 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "2.4 km",
+            "distanceKm": 2.4
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -588,7 +578,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 2.4
       }
     ]
   },
@@ -605,8 +595,7 @@
           {
             "name": "5K plan: Rest",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           }
         ]
       }
@@ -625,11 +614,11 @@
           {
             "name": "5K plan: 3.2 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 3.2
       }
     ]
   },
@@ -646,8 +635,7 @@
           {
             "name": "5K plan: 40 min walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "40 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -696,8 +684,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -741,11 +728,11 @@
           {
             "name": "5K plan: 3.6 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "3.6 km",
+            "distanceKm": 3.6
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 3.6
       }
     ]
   },
@@ -762,8 +749,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -807,8 +793,8 @@
           {
             "name": "5K plan: 2.4 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "2.4 km",
+            "distanceKm": 2.4
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -816,7 +802,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 2.4
       }
     ]
   },
@@ -833,8 +819,7 @@
           {
             "name": "5K plan: Rest",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           }
         ]
       }
@@ -853,11 +838,11 @@
           {
             "name": "5K plan: 3.6 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "3.6 km",
+            "distanceKm": 3.6
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 3.6
       }
     ]
   },
@@ -874,8 +859,7 @@
           {
             "name": "5K plan: 45 min walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "45 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -924,8 +908,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -969,11 +952,11 @@
           {
             "name": "5K plan: 4.0 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "4 km",
+            "distanceKm": 4
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 4
       }
     ]
   },
@@ -990,8 +973,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -1035,8 +1017,8 @@
           {
             "name": "5K plan: 3.2 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -1044,7 +1026,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 3.2
       }
     ]
   },
@@ -1061,8 +1043,7 @@
           {
             "name": "5K plan: Rest",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           }
         ]
       }
@@ -1081,11 +1062,11 @@
           {
             "name": "5K plan: 4.0 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "4 km",
+            "distanceKm": 4
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 4
       }
     ]
   },
@@ -1102,8 +1083,7 @@
           {
             "name": "5K plan: 50 min walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "50 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -1152,8 +1132,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -1197,11 +1176,11 @@
           {
             "name": "5K plan: 4.4 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "4.4 km",
+            "distanceKm": 4.4
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 4.4
       }
     ]
   },
@@ -1218,8 +1197,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -1263,8 +1241,8 @@
           {
             "name": "5K plan: 3.2 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -1272,7 +1250,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 3.2
       }
     ]
   },
@@ -1289,8 +1267,7 @@
           {
             "name": "5K plan: Rest",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           }
         ]
       }
@@ -1309,11 +1286,11 @@
           {
             "name": "5K plan: 4.4 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "4.4 km",
+            "distanceKm": 4.4
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 4.4
       }
     ]
   },
@@ -1330,8 +1307,7 @@
           {
             "name": "5K plan: 55 min walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "55 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -1380,8 +1356,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -1425,11 +1400,11 @@
           {
             "name": "5K plan: 4.8 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "4.8 km",
+            "distanceKm": 4.8
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 4.8
       }
     ]
   },
@@ -1446,8 +1421,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -1491,8 +1465,8 @@
           {
             "name": "5K plan: 3.2 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -1500,7 +1474,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 3.2
       }
     ]
   },
@@ -1517,8 +1491,7 @@
           {
             "name": "5K plan: Rest",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           }
         ]
       }
@@ -1537,11 +1510,11 @@
           {
             "name": "5K plan: 4.8 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "4.8 km",
+            "distanceKm": 4.8
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 4.8
       }
     ]
   },
@@ -1558,8 +1531,7 @@
           {
             "name": "5K plan: 60 min walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "60 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -1608,8 +1580,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -1653,11 +1624,11 @@
           {
             "name": "5K plan: 4.8 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "4.8 km",
+            "distanceKm": 4.8
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 4.8
       }
     ]
   },
@@ -1674,8 +1645,7 @@
           {
             "name": "5K plan: Rest or run/walk",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -1719,8 +1689,8 @@
           {
             "name": "5K plan: 3.2 km run",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -1728,7 +1698,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 5
+        "distanceKm": 3.2
       }
     ]
   },
@@ -1745,8 +1715,7 @@
           {
             "name": "5K plan: Rest",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           }
         ]
       }
@@ -1765,11 +1734,9 @@
           {
             "name": "5K plan: Rest",
             "sets": 1,
-            "reps": "5 km",
-            "distanceKm": 5
+            "reps": "complete"
           }
-        ],
-        "distanceKm": 5
+        ]
       }
     ]
   },
@@ -1806,8 +1773,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -1849,13 +1815,13 @@
         "label": "Run Day",
         "workouts": [
           {
-            "name": "10K plan: 2.5 mi run",
+            "name": "10K plan: 4.0 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "4 km",
+            "distanceKm": 4
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 4
       }
     ]
   },
@@ -1872,8 +1838,7 @@
           {
             "name": "10K plan: 30 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "30 min"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -1915,10 +1880,10 @@
         "label": "Run + Core Finish",
         "workouts": [
           {
-            "name": "10K plan: 2 mi run",
+            "name": "10K plan: 3.2 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -1926,7 +1891,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 3.2
       }
     ]
   },
@@ -1943,8 +1908,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           }
         ]
       }
@@ -1963,8 +1927,7 @@
           {
             "name": "10K plan: 40 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "40 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -2006,13 +1969,13 @@
         "label": "Long Run",
         "workouts": [
           {
-            "name": "10K plan: 3 mi run",
+            "name": "10K plan: 4.8 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "4.8 km",
+            "distanceKm": 4.8
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 4.8
       }
     ]
   },
@@ -2029,8 +1992,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -2072,13 +2034,13 @@
         "label": "Run Day",
         "workouts": [
           {
-            "name": "10K plan: 2.5 mi run",
+            "name": "10K plan: 4.0 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "4 km",
+            "distanceKm": 4
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 4
       }
     ]
   },
@@ -2095,8 +2057,7 @@
           {
             "name": "10K plan: 30 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "30 min"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -2138,10 +2099,10 @@
         "label": "Run + Core Finish",
         "workouts": [
           {
-            "name": "10K plan: 2 mi run",
+            "name": "10K plan: 3.2 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -2149,7 +2110,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 3.2
       }
     ]
   },
@@ -2166,8 +2127,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           }
         ]
       }
@@ -2186,8 +2146,7 @@
           {
             "name": "10K plan: 40 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "40 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -2229,13 +2188,13 @@
         "label": "Long Run",
         "workouts": [
           {
-            "name": "10K plan: 3.5 mi run",
+            "name": "10K plan: 5.6 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "5.6 km",
+            "distanceKm": 5.6
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 5.6
       }
     ]
   },
@@ -2252,8 +2211,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -2295,13 +2253,13 @@
         "label": "Run Day",
         "workouts": [
           {
-            "name": "10K plan: 2.5 mi run",
+            "name": "10K plan: 4.0 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "4 km",
+            "distanceKm": 4
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 4
       }
     ]
   },
@@ -2318,8 +2276,7 @@
           {
             "name": "10K plan: 35 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "35 min"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -2361,10 +2318,10 @@
         "label": "Run + Core Finish",
         "workouts": [
           {
-            "name": "10K plan: 2 mi run",
+            "name": "10K plan: 3.2 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -2372,7 +2329,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 3.2
       }
     ]
   },
@@ -2389,8 +2346,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           }
         ]
       }
@@ -2409,8 +2365,7 @@
           {
             "name": "10K plan: 50 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "50 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -2452,13 +2407,13 @@
         "label": "Long Run",
         "workouts": [
           {
-            "name": "10K plan: 4 mi run",
+            "name": "10K plan: 6.4 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "6.4 km",
+            "distanceKm": 6.4
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 6.4
       }
     ]
   },
@@ -2475,8 +2430,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -2518,13 +2472,13 @@
         "label": "Run Day",
         "workouts": [
           {
-            "name": "10K plan: 3 mi run",
+            "name": "10K plan: 4.8 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "4.8 km",
+            "distanceKm": 4.8
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 4.8
       }
     ]
   },
@@ -2541,8 +2495,7 @@
           {
             "name": "10K plan: 35 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "35 min"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -2584,10 +2537,10 @@
         "label": "Run + Core Finish",
         "workouts": [
           {
-            "name": "10K plan: 2 mi run",
+            "name": "10K plan: 3.2 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -2595,7 +2548,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 3.2
       }
     ]
   },
@@ -2612,8 +2565,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           }
         ]
       }
@@ -2632,8 +2584,7 @@
           {
             "name": "10K plan: 50 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "50 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -2675,13 +2626,13 @@
         "label": "Long Run",
         "workouts": [
           {
-            "name": "10K plan: 4 mi run",
+            "name": "10K plan: 6.4 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "6.4 km",
+            "distanceKm": 6.4
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 6.4
       }
     ]
   },
@@ -2698,8 +2649,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -2741,13 +2691,13 @@
         "label": "Run Day",
         "workouts": [
           {
-            "name": "10K plan: 3 mi run",
+            "name": "10K plan: 4.8 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "4.8 km",
+            "distanceKm": 4.8
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 4.8
       }
     ]
   },
@@ -2764,8 +2714,7 @@
           {
             "name": "10K plan: 40 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "40 min"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -2807,10 +2756,10 @@
         "label": "Run + Core Finish",
         "workouts": [
           {
-            "name": "10K plan: 2 mi run",
+            "name": "10K plan: 3.2 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -2818,7 +2767,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 3.2
       }
     ]
   },
@@ -2835,8 +2784,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           }
         ]
       }
@@ -2855,8 +2803,7 @@
           {
             "name": "10K plan: 60 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "60 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -2898,13 +2845,13 @@
         "label": "Long Run",
         "workouts": [
           {
-            "name": "10K plan: 4.5 mi run",
+            "name": "10K plan: 7.2 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "7.2 km",
+            "distanceKm": 7.2
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 7.2
       }
     ]
   },
@@ -2921,8 +2868,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -2964,13 +2910,13 @@
         "label": "Run Day",
         "workouts": [
           {
-            "name": "10K plan: 3 mi run",
+            "name": "10K plan: 4.8 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "4.8 km",
+            "distanceKm": 4.8
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 4.8
       }
     ]
   },
@@ -2987,8 +2933,7 @@
           {
             "name": "10K plan: 40 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "40 min"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -3030,10 +2975,10 @@
         "label": "Run + Core Finish",
         "workouts": [
           {
-            "name": "10K plan: 2 mi run",
+            "name": "10K plan: 3.2 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -3041,7 +2986,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 3.2
       }
     ]
   },
@@ -3058,8 +3003,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           }
         ]
       }
@@ -3078,8 +3022,7 @@
           {
             "name": "10K plan: 60 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "60 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -3121,13 +3064,13 @@
         "label": "Long Run",
         "workouts": [
           {
-            "name": "10K plan: 5 mi run",
+            "name": "10K plan: 8.0 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "8 km",
+            "distanceKm": 8
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 8
       }
     ]
   },
@@ -3144,8 +3087,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -3187,13 +3129,13 @@
         "label": "Run Day",
         "workouts": [
           {
-            "name": "10K plan: 3 mi run",
+            "name": "10K plan: 4.8 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "4.8 km",
+            "distanceKm": 4.8
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 4.8
       }
     ]
   },
@@ -3210,8 +3152,7 @@
           {
             "name": "10K plan: 45 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "45 min"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -3253,10 +3194,10 @@
         "label": "Run + Core Finish",
         "workouts": [
           {
-            "name": "10K plan: 2 mi run",
+            "name": "10K plan: 3.2 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -3264,7 +3205,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 3.2
       }
     ]
   },
@@ -3281,8 +3222,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           }
         ]
       }
@@ -3301,8 +3241,7 @@
           {
             "name": "10K plan: 60 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "60 min"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -3344,13 +3283,13 @@
         "label": "Long Run",
         "workouts": [
           {
-            "name": "10K plan: 5.5 mi run",
+            "name": "10K plan: 8.8 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "8.8 km",
+            "distanceKm": 8.8
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 8.8
       }
     ]
   },
@@ -3367,8 +3306,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           },
           {
             "name": "Goblet squat",
@@ -3410,13 +3348,13 @@
         "label": "Run Day",
         "workouts": [
           {
-            "name": "10K plan: 3 mi run",
+            "name": "10K plan: 4.8 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "4.8 km",
+            "distanceKm": 4.8
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 4.8
       }
     ]
   },
@@ -3433,8 +3371,7 @@
           {
             "name": "10K plan: 30 min cross",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "30 min"
           },
           {
             "name": "Kettlebell Romanian deadlift",
@@ -3476,10 +3413,10 @@
         "label": "Run + Core Finish",
         "workouts": [
           {
-            "name": "10K plan: 2 mi run",
+            "name": "10K plan: 3.2 km run",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "3.2 km",
+            "distanceKm": 3.2
           },
           {
             "name": "Core finish: dead bug, side plank, mobility",
@@ -3487,7 +3424,7 @@
             "reps": "complete"
           }
         ],
-        "distanceKm": 10
+        "distanceKm": 3.2
       }
     ]
   },
@@ -3504,8 +3441,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           }
         ]
       }
@@ -3524,8 +3460,7 @@
           {
             "name": "10K plan: Rest",
             "sets": 1,
-            "reps": "10 km",
-            "distanceKm": 10
+            "reps": "complete"
           },
           {
             "name": "Bike or row easy warm-up: 5-8 min",
@@ -3567,7 +3502,7 @@
         "label": "10K Benchmark",
         "workouts": [
           {
-            "name": "10K plan: 10K Run",
+            "name": "10K plan: 10 km run",
             "sets": 1,
             "reps": "10 km",
             "distanceKm": 10
