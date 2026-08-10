@@ -710,6 +710,13 @@ h3 {
   font-size: 0.9rem;
 }
 
+.guide-title-row {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
 .guide-meta {
   display: flex;
   flex-wrap: wrap;
@@ -838,6 +845,10 @@ h3 {
   .guide-layout {
     gap: 16px;
   }
+
+  .guide-title-row {
+    display: grid;
+  }
 }
 
 @media (max-width: 520px) {
@@ -853,5 +864,82 @@ h3 {
   .session-grid,
   .week-strip {
     grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  @page {
+    margin: 14mm;
+  }
+
+  body.printing-guide {
+    background: #ffffff;
+    color: #111111;
+  }
+
+  body.printing-guide .app-shell,
+  body.printing-guide .modal-backdrop,
+  body.printing-guide .modal-close,
+  body.printing-guide .guide-actions,
+  body.printing-guide #toast {
+    display: none !important;
+  }
+
+  body.printing-guide .modal {
+    position: static;
+    display: block !important;
+    inset: auto;
+  }
+
+  body.printing-guide .modal-panel {
+    width: auto;
+    max-height: none;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: #ffffff;
+    box-shadow: none;
+  }
+
+  body.printing-guide .guide-layout {
+    display: block;
+  }
+
+  body.printing-guide .guide-figure {
+    margin-bottom: 12mm;
+  }
+
+  body.printing-guide .guide-figure img {
+    max-height: 82mm;
+    object-fit: cover;
+    border: 1px solid #cccccc;
+  }
+
+  body.printing-guide .guide-figure figcaption,
+  body.printing-guide .guide-lead,
+  body.printing-guide .guide-block p,
+  body.printing-guide .guide-block li,
+  body.printing-guide .guide-meta span {
+    color: #222222;
+  }
+
+  body.printing-guide .eyebrow {
+    color: #555555;
+  }
+
+  body.printing-guide h2,
+  body.printing-guide h3 {
+    color: #111111;
+  }
+
+  body.printing-guide .guide-meta span {
+    border: 1px solid #cccccc;
+    background: #f4f4f4;
+  }
+
+  body.printing-guide .guide-block {
+    break-inside: avoid;
   }
 }

@@ -1118,6 +1118,12 @@ function closeGuide() {
   document.body.classList.remove("modal-open");
 }
 
+function printGuide() {
+  if (!guideSession) return;
+  document.body.classList.add("printing-guide");
+  window.print();
+}
+
 function renderGuide() {
   const container = document.getElementById("guideContent");
   if (!guideSession) {
@@ -1132,8 +1138,13 @@ function renderGuide() {
         <figcaption>${image.caption}</figcaption>
       </figure>
       <div class="guide-copy">
-        <p class="eyebrow">${guideSession.type}</p>
-        <h2 id="guideTitle">${guideSession.title}</h2>
+        <div class="guide-title-row">
+          <div>
+            <p class="eyebrow">${guideSession.type}</p>
+            <h2 id="guideTitle">${guideSession.title}</h2>
+          </div>
+          <button class="secondary-btn compact-btn guide-actions" type="button" data-print-guide="true">Print / PDF</button>
+        </div>
         <p class="guide-lead">${guideSession.objective}</p>
         <div class="guide-meta">
           <span>${guideSession.day} ${guideSession.date}</span>
@@ -1581,6 +1592,7 @@ document.addEventListener("click", event => {
   if (event.target.id === "saveWeeklyReview") saveWeeklyReview();
   if (event.target.id === "exportState") exportState();
   if (event.target.id === "closeGuide" || event.target.dataset.closeGuide === "true") closeGuide();
+  if (event.target.closest("[data-print-guide]")) printGuide();
 
   const guideTarget = event.target.closest("[data-guide]");
   if (guideTarget) {
@@ -1634,6 +1646,10 @@ document.addEventListener("change", event => {
 
 window.addEventListener("keydown", event => {
   if (event.key === "Escape" && guideSession) closeGuide();
+});
+
+window.addEventListener("afterprint", () => {
+  document.body.classList.remove("printing-guide");
 });
 
 async function startApp() {
