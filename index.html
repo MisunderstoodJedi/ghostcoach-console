@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d0b">
+  <title>HYROX 2027 Planner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" type="button" data-route="dashboard" aria-label="Open dashboard">
+        <span class="brand-mark">HX</span>
+        <span class="brand-copy">
+          <strong>HYROX 2027 Planner</strong>
+          <small>31-week build from 10 August 2026 to 10 March 2027</small>
+        </span>
+      </button>
+      <div class="topbar-meta">
+        <span id="eventCountdown" class="meta-pill"></span>
+        <span id="saveStatus" class="meta-pill save-status">Loading</span>
+        <button id="mobileMenuToggle" class="icon-btn" type="button" aria-label="Toggle navigation">Menu</button>
+      </div>
+    </header>
+
+    <nav id="mainNav" class="main-nav" aria-label="Primary">
+      <button class="nav-btn active" type="button" data-route="dashboard">Dashboard</button>
+      <button class="nav-btn" type="button" data-route="today">Today</button>
+      <button class="nav-btn" type="button" data-route="programme">Programme</button>
+      <button class="nav-btn" type="button" data-route="reviews">Reviews</button>
+      <button class="nav-btn" type="button" data-route="progress">Progress</button>
+      <button class="nav-btn" type="button" data-route="settings">Settings</button>
+    </nav>
+
+    <main class="workspace">
+      <section id="dashboard" class="route active" aria-labelledby="dashboardTitle">
+        <div class="page-band intro-band">
+          <div class="page-head">
+            <div>
+              <p class="eyebrow" id="dashboardPhase">Training phase</p>
+              <h1 id="dashboardTitle">HYROX 2027 Planner</h1>
+              <p id="dashboardFocus" class="lead"></p>
+            </div>
+            <div class="hero-actions">
+              <button class="primary-btn" type="button" data-route="today">Open Today</button>
+              <button class="secondary-btn" type="button" data-route="programme">Open Programme</button>
+            </div>
+          </div>
+          <div id="dashboardCards" class="summary-grid"></div>
+        </div>
+
+        <div class="page-band">
+          <div class="two-col">
+            <section class="panel" id="dashboardToday"></section>
+            <section class="panel" id="dashboardWeek"></section>
+          </div>
+        </div>
+      </section>
+
+      <section id="today" class="route" aria-labelledby="todayTitle">
+        <div class="page-band today-band">
+          <div class="page-head">
+            <div>
+              <p class="eyebrow">Daily training</p>
+              <h1 id="todayTitle">Today</h1>
+            </div>
+          </div>
+
+          <div class="date-toolbar">
+            <button id="prevDay" class="icon-btn" type="button" data-day-shift="-1" aria-label="Previous day">Prev</button>
+            <input id="activeDate" type="date">
+            <button id="nextDay" class="icon-btn" type="button" data-day-shift="1" aria-label="Next day">Next</button>
+          </div>
+
+          <div class="today-layout">
+            <section class="panel" id="todayCheckinPanel">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Quick check-in</p>
+                  <h2>How are you turning up?</h2>
+                </div>
+                <span id="readinessBadge" class="meta-pill"></span>
+              </div>
+              <form id="checkinForm" class="form-grid"></form>
+            </section>
+
+            <section class="panel" id="todaysWorkout"></section>
+          </div>
+        </div>
+      </section>
+
+      <section id="programme" class="route" aria-labelledby="programmeTitle">
+        <div class="page-band">
+          <div class="page-head">
+            <div>
+              <p class="eyebrow">Full programme</p>
+              <h1 id="programmeTitle">31-week build</h1>
+            </div>
+            <label class="select-label">Week <select id="weekSelect"></select></label>
+          </div>
+          <div id="phaseTimeline" class="phase-row"></div>
+          <div id="weekSummary" class="week-summary-strip"></div>
+          <div id="weekPlan" class="session-grid"></div>
+        </div>
+      </section>
+
+      <section id="reviews" class="route" aria-labelledby="reviewsTitle">
+        <div class="page-band">
+          <div class="page-head">
+            <div>
+              <p class="eyebrow">Weekly review</p>
+              <h1 id="reviewsTitle">Simple weekly review</h1>
+            </div>
+            <label class="select-label">Week <select id="reviewWeekSelect"></select></label>
+          </div>
+          <div id="reviewSummaryCards" class="summary-grid compact-grid"></div>
+          <form id="weeklyReviewForm" class="panel form-grid wide-form"></form>
+          <div id="reviewArchive" class="review-archive"></div>
+        </div>
+      </section>
+
+      <section id="progress" class="route" aria-labelledby="progressTitle">
+        <div class="page-band">
+          <div class="page-head">
+            <div>
+              <p class="eyebrow">Progress tracker</p>
+              <h1 id="progressTitle">Consistency over drama</h1>
+            </div>
+          </div>
+          <div id="progressCards" class="summary-grid"></div>
+          <section class="panel">
+            <div class="panel-head">
+              <div>
+                <p class="eyebrow">Recent logs</p>
+                <h2>Latest sessions</h2>
+              </div>
+            </div>
+            <div id="workoutLogList" class="table-list"></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="settings" class="route" aria-labelledby="settingsTitle">
+        <div class="page-band">
+          <div class="page-head">
+            <div>
+              <p class="eyebrow">Settings</p>
+              <h1 id="settingsTitle">Data and dates</h1>
+            </div>
+          </div>
+          <form id="settingsForm" class="panel form-grid"></form>
+          <section class="panel button-row">
+            <button id="exportState" class="secondary-btn" type="button">Export data</button>
+            <label class="secondary-btn file-btn" for="importState">Import data</label>
+            <input id="importState" type="file" accept="application/json" hidden>
+          </section>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="guideModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-guide="true"></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="guideTitle">
+      <button id="closeGuide" class="icon-btn modal-close" type="button" aria-label="Close guide">Close</button>
+      <div id="guideContent"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" rx="28" fill="#eef9f0"/>
+  <path d="M42 360C170 210 280 250 370 140C430 105 518 108 590 70" fill="none" stroke="#18794e" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="114" cy="360" r="64" fill="#fff" stroke="#18794e" stroke-width="4"/>
+  <path d="M112 330L146 350L132 386L112 360Z" fill="#b8d9c5"/>
+  <text x="42" y="438" font-family="Arial" font-size="28" fill="#20412b">Run guide</text>
+</svg>

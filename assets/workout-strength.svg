@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" rx="28" fill="#fff4e8"/>
+  <circle cx="170" cy="220" r="90" fill="#fff" stroke="#c67b27" stroke-width="4"/>
+  <rect x="260" y="120" width="220" height="22" rx="9" fill="#c67b27"/>
+  <rect x="270" y="212" width="248" height="18" rx="9" fill="#cf8f43"/>
+  <rect x="220" y="330" width="270" height="22" rx="9" fill="#b66f1d"/>
+  <text x="40" y="438" font-family="Arial" font-size="28" fill="#40311b">Strength guide</text>
+</svg>

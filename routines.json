@@ -1,0 +1,7592 @@
+[
+  {
+    "id": "week1-monday",
+    "title": "Week 1 Monday",
+    "subtitle": "Strength A + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w1-monday-strength",
+        "type": "strength",
+        "label": "Strength A + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week1-tuesday",
+    "title": "Week 1 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w1-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "5K plan: 2.4 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week1-wednesday",
+    "title": "Week 1 Wednesday",
+    "subtitle": "Strength B + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w1-wednesday-strength",
+        "type": "strength",
+        "label": "Strength B + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 3,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 3,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week1-thursday",
+    "title": "Week 1 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w1-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "5K plan: 2.4 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week1-friday",
+    "title": "Week 1 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w1-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "5K plan: Rest",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week1-saturday",
+    "title": "Week 1 Saturday",
+    "subtitle": "Weekend Run",
+    "items": [
+      {
+        "id": "w1-saturday-run",
+        "type": "run",
+        "label": "Weekend Run",
+        "workouts": [
+          {
+            "name": "5K plan: 2.4 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week1-sunday",
+    "title": "Week 1 Sunday",
+    "subtitle": "Walk + Strength C",
+    "items": [
+      {
+        "id": "w1-sunday-cross-training",
+        "type": "cross-training",
+        "label": "Walk + Strength C",
+        "workouts": [
+          {
+            "name": "5K plan: 30 min walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 3,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 3,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: calves, hips, hamstrings and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week2-monday",
+    "title": "Week 2 Monday",
+    "subtitle": "Strength A + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w2-monday-strength",
+        "type": "strength",
+        "label": "Strength A + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week2-tuesday",
+    "title": "Week 2 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w2-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "5K plan: 2.8 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week2-wednesday",
+    "title": "Week 2 Wednesday",
+    "subtitle": "Strength B + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w2-wednesday-strength",
+        "type": "strength",
+        "label": "Strength B + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 3,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 3,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week2-thursday",
+    "title": "Week 2 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w2-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "5K plan: 2.4 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week2-friday",
+    "title": "Week 2 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w2-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "5K plan: Rest",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week2-saturday",
+    "title": "Week 2 Saturday",
+    "subtitle": "Weekend Run",
+    "items": [
+      {
+        "id": "w2-saturday-run",
+        "type": "run",
+        "label": "Weekend Run",
+        "workouts": [
+          {
+            "name": "5K plan: 2.8 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week2-sunday",
+    "title": "Week 2 Sunday",
+    "subtitle": "Walk + Strength C",
+    "items": [
+      {
+        "id": "w2-sunday-cross-training",
+        "type": "cross-training",
+        "label": "Walk + Strength C",
+        "workouts": [
+          {
+            "name": "5K plan: 35 min walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 3,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 3,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: calves, hips, hamstrings and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week3-monday",
+    "title": "Week 3 Monday",
+    "subtitle": "Strength A + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w3-monday-strength",
+        "type": "strength",
+        "label": "Strength A + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week3-tuesday",
+    "title": "Week 3 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w3-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "5K plan: 3.2 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week3-wednesday",
+    "title": "Week 3 Wednesday",
+    "subtitle": "Strength B + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w3-wednesday-strength",
+        "type": "strength",
+        "label": "Strength B + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 3,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 3,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week3-thursday",
+    "title": "Week 3 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w3-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "5K plan: 2.4 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week3-friday",
+    "title": "Week 3 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w3-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "5K plan: Rest",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week3-saturday",
+    "title": "Week 3 Saturday",
+    "subtitle": "Weekend Run",
+    "items": [
+      {
+        "id": "w3-saturday-run",
+        "type": "run",
+        "label": "Weekend Run",
+        "workouts": [
+          {
+            "name": "5K plan: 3.2 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week3-sunday",
+    "title": "Week 3 Sunday",
+    "subtitle": "Walk + Strength C",
+    "items": [
+      {
+        "id": "w3-sunday-cross-training",
+        "type": "cross-training",
+        "label": "Walk + Strength C",
+        "workouts": [
+          {
+            "name": "5K plan: 40 min walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 3,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 3,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: calves, hips, hamstrings and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week4-monday",
+    "title": "Week 4 Monday",
+    "subtitle": "Strength A + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w4-monday-strength",
+        "type": "strength",
+        "label": "Strength A + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week4-tuesday",
+    "title": "Week 4 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w4-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "5K plan: 3.6 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week4-wednesday",
+    "title": "Week 4 Wednesday",
+    "subtitle": "Strength B + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w4-wednesday-strength",
+        "type": "strength",
+        "label": "Strength B + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 3,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 3,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week4-thursday",
+    "title": "Week 4 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w4-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "5K plan: 2.4 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week4-friday",
+    "title": "Week 4 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w4-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "5K plan: Rest",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week4-saturday",
+    "title": "Week 4 Saturday",
+    "subtitle": "Weekend Run",
+    "items": [
+      {
+        "id": "w4-saturday-run",
+        "type": "run",
+        "label": "Weekend Run",
+        "workouts": [
+          {
+            "name": "5K plan: 3.6 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week4-sunday",
+    "title": "Week 4 Sunday",
+    "subtitle": "Walk + Strength C",
+    "items": [
+      {
+        "id": "w4-sunday-cross-training",
+        "type": "cross-training",
+        "label": "Walk + Strength C",
+        "workouts": [
+          {
+            "name": "5K plan: 45 min walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 3,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 3,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: calves, hips, hamstrings and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week5-monday",
+    "title": "Week 5 Monday",
+    "subtitle": "Strength A + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w5-monday-strength",
+        "type": "strength",
+        "label": "Strength A + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week5-tuesday",
+    "title": "Week 5 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w5-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "5K plan: 4.0 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week5-wednesday",
+    "title": "Week 5 Wednesday",
+    "subtitle": "Strength B + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w5-wednesday-strength",
+        "type": "strength",
+        "label": "Strength B + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 3,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 3,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week5-thursday",
+    "title": "Week 5 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w5-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "5K plan: 3.2 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week5-friday",
+    "title": "Week 5 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w5-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "5K plan: Rest",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week5-saturday",
+    "title": "Week 5 Saturday",
+    "subtitle": "Weekend Run",
+    "items": [
+      {
+        "id": "w5-saturday-run",
+        "type": "run",
+        "label": "Weekend Run",
+        "workouts": [
+          {
+            "name": "5K plan: 4.0 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week5-sunday",
+    "title": "Week 5 Sunday",
+    "subtitle": "Walk + Strength C",
+    "items": [
+      {
+        "id": "w5-sunday-cross-training",
+        "type": "cross-training",
+        "label": "Walk + Strength C",
+        "workouts": [
+          {
+            "name": "5K plan: 50 min walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 3,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 3,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: calves, hips, hamstrings and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week6-monday",
+    "title": "Week 6 Monday",
+    "subtitle": "Strength A + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w6-monday-strength",
+        "type": "strength",
+        "label": "Strength A + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week6-tuesday",
+    "title": "Week 6 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w6-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "5K plan: 4.4 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week6-wednesday",
+    "title": "Week 6 Wednesday",
+    "subtitle": "Strength B + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w6-wednesday-strength",
+        "type": "strength",
+        "label": "Strength B + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 3,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 3,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week6-thursday",
+    "title": "Week 6 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w6-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "5K plan: 3.2 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week6-friday",
+    "title": "Week 6 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w6-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "5K plan: Rest",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week6-saturday",
+    "title": "Week 6 Saturday",
+    "subtitle": "Weekend Run",
+    "items": [
+      {
+        "id": "w6-saturday-run",
+        "type": "run",
+        "label": "Weekend Run",
+        "workouts": [
+          {
+            "name": "5K plan: 4.4 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week6-sunday",
+    "title": "Week 6 Sunday",
+    "subtitle": "Walk + Strength C",
+    "items": [
+      {
+        "id": "w6-sunday-cross-training",
+        "type": "cross-training",
+        "label": "Walk + Strength C",
+        "workouts": [
+          {
+            "name": "5K plan: 55 min walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 3,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 3,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: calves, hips, hamstrings and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week7-monday",
+    "title": "Week 7 Monday",
+    "subtitle": "Strength A + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w7-monday-strength",
+        "type": "strength",
+        "label": "Strength A + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week7-tuesday",
+    "title": "Week 7 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w7-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "5K plan: 4.8 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week7-wednesday",
+    "title": "Week 7 Wednesday",
+    "subtitle": "Strength B + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w7-wednesday-strength",
+        "type": "strength",
+        "label": "Strength B + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 3,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 3,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week7-thursday",
+    "title": "Week 7 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w7-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "5K plan: 3.2 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week7-friday",
+    "title": "Week 7 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w7-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "5K plan: Rest",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week7-saturday",
+    "title": "Week 7 Saturday",
+    "subtitle": "Weekend Run",
+    "items": [
+      {
+        "id": "w7-saturday-run",
+        "type": "run",
+        "label": "Weekend Run",
+        "workouts": [
+          {
+            "name": "5K plan: 4.8 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week7-sunday",
+    "title": "Week 7 Sunday",
+    "subtitle": "Walk + Strength C",
+    "items": [
+      {
+        "id": "w7-sunday-cross-training",
+        "type": "cross-training",
+        "label": "Walk + Strength C",
+        "workouts": [
+          {
+            "name": "5K plan: 60 min walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 3,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 3,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: calves, hips, hamstrings and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week8-monday",
+    "title": "Week 8 Monday",
+    "subtitle": "Strength A + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w8-monday-strength",
+        "type": "strength",
+        "label": "Strength A + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week8-tuesday",
+    "title": "Week 8 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w8-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "5K plan: 4.8 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week8-wednesday",
+    "title": "Week 8 Wednesday",
+    "subtitle": "Strength B + Optional Run/Walk",
+    "items": [
+      {
+        "id": "w8-wednesday-strength",
+        "type": "strength",
+        "label": "Strength B + Optional Run/Walk",
+        "workouts": [
+          {
+            "name": "5K plan: Rest or run/walk",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 3,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 3,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week8-thursday",
+    "title": "Week 8 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w8-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "5K plan: 3.2 km run",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week8-friday",
+    "title": "Week 8 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w8-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "5K plan: Rest",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week8-saturday",
+    "title": "Week 8 Saturday",
+    "subtitle": "Weekend Run",
+    "items": [
+      {
+        "id": "w8-saturday-run",
+        "type": "run",
+        "label": "Weekend Run",
+        "workouts": [
+          {
+            "name": "5K plan: Rest",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ],
+        "distanceKm": 5
+      }
+    ]
+  },
+  {
+    "id": "week8-sunday",
+    "title": "Week 8 Sunday",
+    "subtitle": "5K Race Day",
+    "items": [
+      {
+        "id": "w8-sunday-recovery",
+        "type": "recovery",
+        "label": "5K Race Day",
+        "workouts": [
+          {
+            "name": "5K plan: 5K Race",
+            "sets": 1,
+            "reps": "5 km",
+            "distanceKm": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week9-monday",
+    "title": "Week 9 Monday",
+    "subtitle": "Strength A",
+    "items": [
+      {
+        "id": "w9-monday-strength",
+        "type": "strength",
+        "label": "Strength A",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week9-tuesday",
+    "title": "Week 9 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w9-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "10K plan: 2.5 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week9-wednesday",
+    "title": "Week 9 Wednesday",
+    "subtitle": "Cross-Training + Strength B",
+    "items": [
+      {
+        "id": "w9-wednesday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength B",
+        "workouts": [
+          {
+            "name": "10K plan: 30 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 3,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 3,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week9-thursday",
+    "title": "Week 9 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w9-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "10K plan: 2 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week9-friday",
+    "title": "Week 9 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w9-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week9-saturday",
+    "title": "Week 9 Saturday",
+    "subtitle": "Cross-Training + Strength C",
+    "items": [
+      {
+        "id": "w9-saturday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength C",
+        "workouts": [
+          {
+            "name": "10K plan: 40 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 3,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 3,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week9-sunday",
+    "title": "Week 9 Sunday",
+    "subtitle": "Long Run",
+    "items": [
+      {
+        "id": "w9-sunday-run",
+        "type": "run",
+        "label": "Long Run",
+        "workouts": [
+          {
+            "name": "10K plan: 3 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week10-monday",
+    "title": "Week 10 Monday",
+    "subtitle": "Strength A",
+    "items": [
+      {
+        "id": "w10-monday-strength",
+        "type": "strength",
+        "label": "Strength A",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week10-tuesday",
+    "title": "Week 10 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w10-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "10K plan: 2.5 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week10-wednesday",
+    "title": "Week 10 Wednesday",
+    "subtitle": "Cross-Training + Strength B",
+    "items": [
+      {
+        "id": "w10-wednesday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength B",
+        "workouts": [
+          {
+            "name": "10K plan: 30 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 3,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 3,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week10-thursday",
+    "title": "Week 10 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w10-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "10K plan: 2 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week10-friday",
+    "title": "Week 10 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w10-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week10-saturday",
+    "title": "Week 10 Saturday",
+    "subtitle": "Cross-Training + Strength C",
+    "items": [
+      {
+        "id": "w10-saturday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength C",
+        "workouts": [
+          {
+            "name": "10K plan: 40 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 3,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 3,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week10-sunday",
+    "title": "Week 10 Sunday",
+    "subtitle": "Long Run",
+    "items": [
+      {
+        "id": "w10-sunday-run",
+        "type": "run",
+        "label": "Long Run",
+        "workouts": [
+          {
+            "name": "10K plan: 3.5 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week11-monday",
+    "title": "Week 11 Monday",
+    "subtitle": "Strength A",
+    "items": [
+      {
+        "id": "w11-monday-strength",
+        "type": "strength",
+        "label": "Strength A",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week11-tuesday",
+    "title": "Week 11 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w11-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "10K plan: 2.5 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week11-wednesday",
+    "title": "Week 11 Wednesday",
+    "subtitle": "Cross-Training + Strength B",
+    "items": [
+      {
+        "id": "w11-wednesday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength B",
+        "workouts": [
+          {
+            "name": "10K plan: 35 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 3,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 3,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week11-thursday",
+    "title": "Week 11 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w11-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "10K plan: 2 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week11-friday",
+    "title": "Week 11 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w11-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week11-saturday",
+    "title": "Week 11 Saturday",
+    "subtitle": "Cross-Training + Strength C",
+    "items": [
+      {
+        "id": "w11-saturday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength C",
+        "workouts": [
+          {
+            "name": "10K plan: 50 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 3,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 3,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week11-sunday",
+    "title": "Week 11 Sunday",
+    "subtitle": "Long Run",
+    "items": [
+      {
+        "id": "w11-sunday-run",
+        "type": "run",
+        "label": "Long Run",
+        "workouts": [
+          {
+            "name": "10K plan: 4 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week12-monday",
+    "title": "Week 12 Monday",
+    "subtitle": "Strength A",
+    "items": [
+      {
+        "id": "w12-monday-strength",
+        "type": "strength",
+        "label": "Strength A",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week12-tuesday",
+    "title": "Week 12 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w12-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "10K plan: 3 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week12-wednesday",
+    "title": "Week 12 Wednesday",
+    "subtitle": "Cross-Training + Strength B",
+    "items": [
+      {
+        "id": "w12-wednesday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength B",
+        "workouts": [
+          {
+            "name": "10K plan: 35 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 3,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 3,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week12-thursday",
+    "title": "Week 12 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w12-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "10K plan: 2 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week12-friday",
+    "title": "Week 12 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w12-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week12-saturday",
+    "title": "Week 12 Saturday",
+    "subtitle": "Cross-Training + Strength C",
+    "items": [
+      {
+        "id": "w12-saturday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength C",
+        "workouts": [
+          {
+            "name": "10K plan: 50 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 3,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 3,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 3,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week12-sunday",
+    "title": "Week 12 Sunday",
+    "subtitle": "Long Run",
+    "items": [
+      {
+        "id": "w12-sunday-run",
+        "type": "run",
+        "label": "Long Run",
+        "workouts": [
+          {
+            "name": "10K plan: 4 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week13-monday",
+    "title": "Week 13 Monday",
+    "subtitle": "Strength A",
+    "items": [
+      {
+        "id": "w13-monday-strength",
+        "type": "strength",
+        "label": "Strength A",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week13-tuesday",
+    "title": "Week 13 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w13-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "10K plan: 3 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week13-wednesday",
+    "title": "Week 13 Wednesday",
+    "subtitle": "Cross-Training + Strength B",
+    "items": [
+      {
+        "id": "w13-wednesday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength B",
+        "workouts": [
+          {
+            "name": "10K plan: 40 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 4,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 4,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week13-thursday",
+    "title": "Week 13 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w13-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "10K plan: 2 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week13-friday",
+    "title": "Week 13 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w13-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week13-saturday",
+    "title": "Week 13 Saturday",
+    "subtitle": "Cross-Training + Strength C",
+    "items": [
+      {
+        "id": "w13-saturday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength C",
+        "workouts": [
+          {
+            "name": "10K plan: 60 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 4,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 4,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week13-sunday",
+    "title": "Week 13 Sunday",
+    "subtitle": "Long Run",
+    "items": [
+      {
+        "id": "w13-sunday-run",
+        "type": "run",
+        "label": "Long Run",
+        "workouts": [
+          {
+            "name": "10K plan: 4.5 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week14-monday",
+    "title": "Week 14 Monday",
+    "subtitle": "Strength A",
+    "items": [
+      {
+        "id": "w14-monday-strength",
+        "type": "strength",
+        "label": "Strength A",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week14-tuesday",
+    "title": "Week 14 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w14-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "10K plan: 3 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week14-wednesday",
+    "title": "Week 14 Wednesday",
+    "subtitle": "Cross-Training + Strength B",
+    "items": [
+      {
+        "id": "w14-wednesday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength B",
+        "workouts": [
+          {
+            "name": "10K plan: 40 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 4,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 4,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week14-thursday",
+    "title": "Week 14 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w14-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "10K plan: 2 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week14-friday",
+    "title": "Week 14 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w14-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week14-saturday",
+    "title": "Week 14 Saturday",
+    "subtitle": "Cross-Training + Strength C",
+    "items": [
+      {
+        "id": "w14-saturday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength C",
+        "workouts": [
+          {
+            "name": "10K plan: 60 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 4,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 4,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week14-sunday",
+    "title": "Week 14 Sunday",
+    "subtitle": "Long Run",
+    "items": [
+      {
+        "id": "w14-sunday-run",
+        "type": "run",
+        "label": "Long Run",
+        "workouts": [
+          {
+            "name": "10K plan: 5 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week15-monday",
+    "title": "Week 15 Monday",
+    "subtitle": "Strength A",
+    "items": [
+      {
+        "id": "w15-monday-strength",
+        "type": "strength",
+        "label": "Strength A",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week15-tuesday",
+    "title": "Week 15 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w15-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "10K plan: 3 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week15-wednesday",
+    "title": "Week 15 Wednesday",
+    "subtitle": "Cross-Training + Strength B",
+    "items": [
+      {
+        "id": "w15-wednesday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength B",
+        "workouts": [
+          {
+            "name": "10K plan: 45 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 4,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 4,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week15-thursday",
+    "title": "Week 15 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w15-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "10K plan: 2 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week15-friday",
+    "title": "Week 15 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w15-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week15-saturday",
+    "title": "Week 15 Saturday",
+    "subtitle": "Cross-Training + Strength C",
+    "items": [
+      {
+        "id": "w15-saturday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength C",
+        "workouts": [
+          {
+            "name": "10K plan: 60 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 4,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 4,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week15-sunday",
+    "title": "Week 15 Sunday",
+    "subtitle": "Long Run",
+    "items": [
+      {
+        "id": "w15-sunday-run",
+        "type": "run",
+        "label": "Long Run",
+        "workouts": [
+          {
+            "name": "10K plan: 5.5 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week16-monday",
+    "title": "Week 16 Monday",
+    "subtitle": "Strength A",
+    "items": [
+      {
+        "id": "w16-monday-strength",
+        "type": "strength",
+        "label": "Strength A",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Goblet squat",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Dumbbell floor press or push-up",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Farmers carry with 16 kg kettlebells",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Dead bug",
+            "sets": 3,
+            "reps": "8/side"
+          },
+          {
+            "name": "Front plank",
+            "sets": 3,
+            "reps": "30-45 sec"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week16-tuesday",
+    "title": "Week 16 Tuesday",
+    "subtitle": "Run Day",
+    "items": [
+      {
+        "id": "w16-tuesday-run",
+        "type": "run",
+        "label": "Run Day",
+        "workouts": [
+          {
+            "name": "10K plan: 3 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week16-wednesday",
+    "title": "Week 16 Wednesday",
+    "subtitle": "Cross-Training + Strength B",
+    "items": [
+      {
+        "id": "w16-wednesday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength B",
+        "workouts": [
+          {
+            "name": "10K plan: 30 min cross",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Reverse lunge",
+            "sets": 4,
+            "reps": "6-8/leg"
+          },
+          {
+            "name": "Pull-up negative, assisted pull-up or body-row pattern",
+            "sets": 4,
+            "reps": "5-8"
+          },
+          {
+            "name": "Hanging knee raise or lying leg raise",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Side plank",
+            "sets": 3,
+            "reps": "20-40 sec/side"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week16-thursday",
+    "title": "Week 16 Thursday",
+    "subtitle": "Run + Core Finish",
+    "items": [
+      {
+        "id": "w16-thursday-run",
+        "type": "run",
+        "label": "Run + Core Finish",
+        "workouts": [
+          {
+            "name": "10K plan: 2 mi run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Core finish: dead bug, side plank, mobility",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week16-friday",
+    "title": "Week 16 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w16-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week16-saturday",
+    "title": "Week 16 Saturday",
+    "subtitle": "Cross-Training + Strength C",
+    "items": [
+      {
+        "id": "w16-saturday-cross-training",
+        "type": "cross-training",
+        "label": "Cross-Training + Strength C",
+        "workouts": [
+          {
+            "name": "10K plan: Rest",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          },
+          {
+            "name": "Bike or row easy warm-up: 5-8 min",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Weighted-vest step-up or split squat",
+            "sets": 4,
+            "reps": "8/leg"
+          },
+          {
+            "name": "Dumbbell row",
+            "sets": 4,
+            "reps": "10-12/side"
+          },
+          {
+            "name": "Water-bag bear hug carry",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Powerball or grip donut: 3 short rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week16-sunday",
+    "title": "Week 16 Sunday",
+    "subtitle": "10K Benchmark",
+    "items": [
+      {
+        "id": "w16-sunday-run",
+        "type": "run",
+        "label": "10K Benchmark",
+        "workouts": [
+          {
+            "name": "10K plan: 10K Run",
+            "sets": 1,
+            "reps": "10 km",
+            "distanceKm": 10
+          }
+        ],
+        "distanceKm": 10
+      }
+    ]
+  },
+  {
+    "id": "week17-monday",
+    "title": "Week 17 Monday",
+    "subtitle": "Strength + Core Base",
+    "items": [
+      {
+        "id": "w17-monday-strength",
+        "type": "strength",
+        "label": "Strength + Core Base",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 3,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week17-tuesday",
+    "title": "Week 17 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w17-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "30-40 min easy run/walk",
+            "sets": 1,
+            "reps": "30-40 min"
+          },
+          {
+            "name": "4 short relaxed strides",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Keep this comfortable",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week17-wednesday",
+    "title": "Week 17 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w17-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week17-thursday",
+    "title": "Week 17 Thursday",
+    "subtitle": "Home HYROX Skills",
+    "items": [
+      {
+        "id": "w17-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Home HYROX Skills",
+        "workouts": [
+          {
+            "name": "3 rounds at controlled effort",
+            "sets": 3,
+            "reps": "round"
+          },
+          {
+            "name": "400 m run/walk",
+            "sets": 1,
+            "reps": "0.4 km",
+            "distanceKm": 0.4
+          },
+          {
+            "name": "Rower: 300 m smooth",
+            "sets": 1,
+            "reps": "0.3 km",
+            "distanceKm": 0.3
+          },
+          {
+            "name": "Kettlebell swings or fast high pulls: 10-12 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Incline treadmill march with vest or unloaded: 2 min",
+            "sets": 1,
+            "reps": "2 min"
+          },
+          {
+            "name": "Water-bag lunges or reverse lunges: 6/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Dumbbell thrusters: 8-10 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Rest enough to keep movement tidy",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week17-friday",
+    "title": "Week 17 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w17-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week17-saturday",
+    "title": "Week 17 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w17-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "3 steady rounds",
+            "sets": 3,
+            "reps": "round"
+          },
+          {
+            "name": "500 m run/walk",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "300 m row",
+            "sets": 1,
+            "reps": "0.3 km",
+            "distanceKm": 0.3
+          },
+          {
+            "name": "Farmers carry: 40 m",
+            "sets": 1,
+            "reps": "0.04 km",
+            "distanceKm": 0.04
+          },
+          {
+            "name": "Water-bag or reverse lunges: 6/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week17-sunday",
+    "title": "Week 17 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w17-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week18-monday",
+    "title": "Week 18 Monday",
+    "subtitle": "Strength + Core Base",
+    "items": [
+      {
+        "id": "w18-monday-strength",
+        "type": "strength",
+        "label": "Strength + Core Base",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 3,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week18-tuesday",
+    "title": "Week 18 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w18-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "30-40 min easy run/walk",
+            "sets": 1,
+            "reps": "30-40 min"
+          },
+          {
+            "name": "4 short relaxed strides",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Keep this comfortable",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week18-wednesday",
+    "title": "Week 18 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w18-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week18-thursday",
+    "title": "Week 18 Thursday",
+    "subtitle": "Home HYROX Skills",
+    "items": [
+      {
+        "id": "w18-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Home HYROX Skills",
+        "workouts": [
+          {
+            "name": "3 rounds at controlled effort",
+            "sets": 3,
+            "reps": "round"
+          },
+          {
+            "name": "400 m run/walk",
+            "sets": 1,
+            "reps": "0.4 km",
+            "distanceKm": 0.4
+          },
+          {
+            "name": "Rower: 300 m smooth",
+            "sets": 1,
+            "reps": "0.3 km",
+            "distanceKm": 0.3
+          },
+          {
+            "name": "Kettlebell swings or fast high pulls: 10-12 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Incline treadmill march with vest or unloaded: 2 min",
+            "sets": 1,
+            "reps": "2 min"
+          },
+          {
+            "name": "Water-bag lunges or reverse lunges: 6/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Dumbbell thrusters: 8-10 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Rest enough to keep movement tidy",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week18-friday",
+    "title": "Week 18 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w18-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week18-saturday",
+    "title": "Week 18 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w18-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "3 steady rounds",
+            "sets": 3,
+            "reps": "round"
+          },
+          {
+            "name": "500 m run/walk",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "300 m row",
+            "sets": 1,
+            "reps": "0.3 km",
+            "distanceKm": 0.3
+          },
+          {
+            "name": "Farmers carry: 40 m",
+            "sets": 1,
+            "reps": "0.04 km",
+            "distanceKm": 0.04
+          },
+          {
+            "name": "Water-bag or reverse lunges: 6/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week18-sunday",
+    "title": "Week 18 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w18-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week19-monday",
+    "title": "Week 19 Monday",
+    "subtitle": "Strength + Core Base",
+    "items": [
+      {
+        "id": "w19-monday-strength",
+        "type": "strength",
+        "label": "Strength + Core Base",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 3,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week19-tuesday",
+    "title": "Week 19 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w19-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "10 min easy",
+            "sets": 1,
+            "reps": "10 min"
+          },
+          {
+            "name": "6 x 2 min steady / 2 min easy",
+            "sets": 1,
+            "reps": "2 min"
+          },
+          {
+            "name": "5-10 min cool-down",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week19-wednesday",
+    "title": "Week 19 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w19-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week19-thursday",
+    "title": "Week 19 Thursday",
+    "subtitle": "Home HYROX Skills",
+    "items": [
+      {
+        "id": "w19-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Home HYROX Skills",
+        "workouts": [
+          {
+            "name": "3 rounds at controlled effort",
+            "sets": 3,
+            "reps": "round"
+          },
+          {
+            "name": "400 m run/walk",
+            "sets": 1,
+            "reps": "0.4 km",
+            "distanceKm": 0.4
+          },
+          {
+            "name": "Rower: 300 m smooth",
+            "sets": 1,
+            "reps": "0.3 km",
+            "distanceKm": 0.3
+          },
+          {
+            "name": "Kettlebell swings or fast high pulls: 10-12 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Incline treadmill march with vest or unloaded: 2 min",
+            "sets": 1,
+            "reps": "2 min"
+          },
+          {
+            "name": "Water-bag lunges or reverse lunges: 6/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Dumbbell thrusters: 8-10 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Rest enough to keep movement tidy",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week19-friday",
+    "title": "Week 19 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w19-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week19-saturday",
+    "title": "Week 19 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w19-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "3 steady rounds",
+            "sets": 3,
+            "reps": "round"
+          },
+          {
+            "name": "500 m run/walk",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "300 m row",
+            "sets": 1,
+            "reps": "0.3 km",
+            "distanceKm": 0.3
+          },
+          {
+            "name": "Farmers carry: 40 m",
+            "sets": 1,
+            "reps": "0.04 km",
+            "distanceKm": 0.04
+          },
+          {
+            "name": "Water-bag or reverse lunges: 6/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week19-sunday",
+    "title": "Week 19 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w19-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week20-monday",
+    "title": "Week 20 Monday",
+    "subtitle": "Strength + Core Base",
+    "items": [
+      {
+        "id": "w20-monday-strength",
+        "type": "strength",
+        "label": "Strength + Core Base",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 2,
+            "reps": "10-12"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 2,
+            "reps": "10-12"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 2,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 2,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week20-tuesday",
+    "title": "Week 20 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w20-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "25-35 min easy run/walk",
+            "sets": 1,
+            "reps": "25-35 min"
+          },
+          {
+            "name": "4 relaxed strides if legs feel good",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Finish fresh",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week20-wednesday",
+    "title": "Week 20 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w20-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week20-thursday",
+    "title": "Week 20 Thursday",
+    "subtitle": "Home HYROX Skills",
+    "items": [
+      {
+        "id": "w20-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Home HYROX Skills",
+        "workouts": [
+          {
+            "name": "2 rounds at controlled effort",
+            "sets": 2,
+            "reps": "round"
+          },
+          {
+            "name": "400 m run/walk",
+            "sets": 1,
+            "reps": "0.4 km",
+            "distanceKm": 0.4
+          },
+          {
+            "name": "Rower: 300 m smooth",
+            "sets": 1,
+            "reps": "0.3 km",
+            "distanceKm": 0.3
+          },
+          {
+            "name": "Kettlebell swings or fast high pulls: 10-12 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Incline treadmill march with vest or unloaded: 2 min",
+            "sets": 1,
+            "reps": "2 min"
+          },
+          {
+            "name": "Water-bag lunges or reverse lunges: 6/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Dumbbell thrusters: 8-10 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Rest enough to keep movement tidy",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week20-friday",
+    "title": "Week 20 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w20-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week20-saturday",
+    "title": "Week 20 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w20-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "2 steady rounds",
+            "sets": 2,
+            "reps": "round"
+          },
+          {
+            "name": "500 m run/walk",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "300 m row",
+            "sets": 1,
+            "reps": "0.3 km",
+            "distanceKm": 0.3
+          },
+          {
+            "name": "Farmers carry: 40 m",
+            "sets": 1,
+            "reps": "0.04 km",
+            "distanceKm": 0.04
+          },
+          {
+            "name": "Water-bag or reverse lunges: 6/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week20-sunday",
+    "title": "Week 20 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w20-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week21-monday",
+    "title": "Week 21 Monday",
+    "subtitle": "Strength + Core Base",
+    "items": [
+      {
+        "id": "w21-monday-strength",
+        "type": "strength",
+        "label": "Strength + Core Base",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 3,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week21-tuesday",
+    "title": "Week 21 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w21-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "10 min easy",
+            "sets": 1,
+            "reps": "10 min"
+          },
+          {
+            "name": "6 x 2 min steady / 2 min easy",
+            "sets": 1,
+            "reps": "2 min"
+          },
+          {
+            "name": "5-10 min cool-down",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week21-wednesday",
+    "title": "Week 21 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w21-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week21-thursday",
+    "title": "Week 21 Thursday",
+    "subtitle": "Home HYROX Skills",
+    "items": [
+      {
+        "id": "w21-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Home HYROX Skills",
+        "workouts": [
+          {
+            "name": "3 rounds at controlled effort",
+            "sets": 3,
+            "reps": "round"
+          },
+          {
+            "name": "400 m run/walk",
+            "sets": 1,
+            "reps": "0.4 km",
+            "distanceKm": 0.4
+          },
+          {
+            "name": "Rower: 300 m smooth",
+            "sets": 1,
+            "reps": "0.3 km",
+            "distanceKm": 0.3
+          },
+          {
+            "name": "Kettlebell swings or fast high pulls: 10-12 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Incline treadmill march with vest or unloaded: 2 min",
+            "sets": 1,
+            "reps": "2 min"
+          },
+          {
+            "name": "Water-bag lunges or reverse lunges: 6/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Dumbbell thrusters: 8-10 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Rest enough to keep movement tidy",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week21-friday",
+    "title": "Week 21 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w21-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week21-saturday",
+    "title": "Week 21 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w21-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "3 steady rounds",
+            "sets": 3,
+            "reps": "round"
+          },
+          {
+            "name": "500 m run/walk",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "300 m row",
+            "sets": 1,
+            "reps": "0.3 km",
+            "distanceKm": 0.3
+          },
+          {
+            "name": "Farmers carry: 40 m",
+            "sets": 1,
+            "reps": "0.04 km",
+            "distanceKm": 0.04
+          },
+          {
+            "name": "Water-bag or reverse lunges: 6/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week21-sunday",
+    "title": "Week 21 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w21-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week22-monday",
+    "title": "Week 22 Monday",
+    "subtitle": "Strength + Core Base",
+    "items": [
+      {
+        "id": "w22-monday-strength",
+        "type": "strength",
+        "label": "Strength + Core Base",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 3,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 4,
+            "reps": "30-40 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week22-tuesday",
+    "title": "Week 22 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w22-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "10 min easy",
+            "sets": 1,
+            "reps": "10 min"
+          },
+          {
+            "name": "6 x 2 min steady / 2 min easy",
+            "sets": 1,
+            "reps": "2 min"
+          },
+          {
+            "name": "5-10 min cool-down",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week22-wednesday",
+    "title": "Week 22 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w22-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week22-thursday",
+    "title": "Week 22 Thursday",
+    "subtitle": "Gym HYROX Skills",
+    "items": [
+      {
+        "id": "w22-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Gym HYROX Skills",
+        "workouts": [
+          {
+            "name": "3 rounds at controlled race practice effort",
+            "sets": 3,
+            "reps": "round"
+          },
+          {
+            "name": "400 m run/walk",
+            "sets": 1,
+            "reps": "0.4 km",
+            "distanceKm": 0.4
+          },
+          {
+            "name": "SkiErg: 500-750 m smooth technique",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "Sled push: 2-4 lengths, build load gradually",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Sled pull: 2-4 lengths, smooth rope work",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Wall balls",
+            "sets": 3,
+            "reps": "10-20 clean reps"
+          },
+          {
+            "name": "Stop with one good rep still in the tank",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week22-friday",
+    "title": "Week 22 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w22-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week22-saturday",
+    "title": "Week 22 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w22-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "3 steady rounds",
+            "sets": 3,
+            "reps": "round"
+          },
+          {
+            "name": "500 m run/walk",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "300 m row",
+            "sets": 1,
+            "reps": "0.3 km",
+            "distanceKm": 0.3
+          },
+          {
+            "name": "Farmers carry: 40 m",
+            "sets": 1,
+            "reps": "0.04 km",
+            "distanceKm": 0.04
+          },
+          {
+            "name": "Water-bag or reverse lunges: 6/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week22-sunday",
+    "title": "Week 22 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w22-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week23-monday",
+    "title": "Week 23 Monday",
+    "subtitle": "Strength, Carries + Core",
+    "items": [
+      {
+        "id": "w23-monday-strength",
+        "type": "strength",
+        "label": "Strength, Carries + Core",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 4,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 5,
+            "reps": "50 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week23-tuesday",
+    "title": "Week 23 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w23-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "10 min easy",
+            "sets": 1,
+            "reps": "10 min"
+          },
+          {
+            "name": "5 x 800 m controlled / 2 min walk-jog",
+            "sets": 1,
+            "reps": "0.8 km",
+            "distanceKm": 0.8
+          },
+          {
+            "name": "Stop before form fades",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 0.8
+      }
+    ]
+  },
+  {
+    "id": "week23-wednesday",
+    "title": "Week 23 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w23-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week23-thursday",
+    "title": "Week 23 Thursday",
+    "subtitle": "Home HYROX Skills",
+    "items": [
+      {
+        "id": "w23-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Home HYROX Skills",
+        "workouts": [
+          {
+            "name": "4 rounds at controlled effort",
+            "sets": 4,
+            "reps": "round"
+          },
+          {
+            "name": "600 m run",
+            "sets": 1,
+            "reps": "0.6 km",
+            "distanceKm": 0.6
+          },
+          {
+            "name": "Rower: 500 m steady",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "Kettlebell swings or fast high pulls: 15-20 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Incline treadmill march with vest or unloaded: 3 min",
+            "sets": 1,
+            "reps": "3 min"
+          },
+          {
+            "name": "Water-bag lunges or reverse lunges: 8-10/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Dumbbell thrusters: 12-15 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Rest enough to keep movement tidy",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week23-friday",
+    "title": "Week 23 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w23-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week23-saturday",
+    "title": "Week 23 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w23-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "4 steady rounds",
+            "sets": 4,
+            "reps": "round"
+          },
+          {
+            "name": "750 m run/walk",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "500 m row",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "Farmers carry: 60 m",
+            "sets": 1,
+            "reps": "0.06 km",
+            "distanceKm": 0.06
+          },
+          {
+            "name": "Water-bag or reverse lunges: 8-10/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week23-sunday",
+    "title": "Week 23 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w23-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week24-monday",
+    "title": "Week 24 Monday",
+    "subtitle": "Strength, Carries + Core",
+    "items": [
+      {
+        "id": "w24-monday-strength",
+        "type": "strength",
+        "label": "Strength, Carries + Core",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 2,
+            "reps": "8-10"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 2,
+            "reps": "8-10"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 2,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 2,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 5,
+            "reps": "50 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week24-tuesday",
+    "title": "Week 24 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w24-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "25-35 min easy run/walk",
+            "sets": 1,
+            "reps": "25-35 min"
+          },
+          {
+            "name": "4 relaxed strides if legs feel good",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Finish fresh",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week24-wednesday",
+    "title": "Week 24 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w24-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week24-thursday",
+    "title": "Week 24 Thursday",
+    "subtitle": "Gym HYROX Skills",
+    "items": [
+      {
+        "id": "w24-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Gym HYROX Skills",
+        "workouts": [
+          {
+            "name": "2 rounds at controlled race practice effort",
+            "sets": 2,
+            "reps": "round"
+          },
+          {
+            "name": "600 m run",
+            "sets": 1,
+            "reps": "0.6 km",
+            "distanceKm": 0.6
+          },
+          {
+            "name": "SkiErg: 500-750 m smooth technique",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "Sled push: 2-4 lengths, build load gradually",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Sled pull: 2-4 lengths, smooth rope work",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Wall balls",
+            "sets": 3,
+            "reps": "10-20 clean reps"
+          },
+          {
+            "name": "Stop with one good rep still in the tank",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week24-friday",
+    "title": "Week 24 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w24-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week24-saturday",
+    "title": "Week 24 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w24-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "2 steady rounds",
+            "sets": 2,
+            "reps": "round"
+          },
+          {
+            "name": "750 m run/walk",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "500 m row",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "Farmers carry: 60 m",
+            "sets": 1,
+            "reps": "0.06 km",
+            "distanceKm": 0.06
+          },
+          {
+            "name": "Water-bag or reverse lunges: 8-10/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week24-sunday",
+    "title": "Week 24 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w24-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week25-monday",
+    "title": "Week 25 Monday",
+    "subtitle": "Strength, Carries + Core",
+    "items": [
+      {
+        "id": "w25-monday-strength",
+        "type": "strength",
+        "label": "Strength, Carries + Core",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 4,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 5,
+            "reps": "50 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week25-tuesday",
+    "title": "Week 25 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w25-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "10 min easy",
+            "sets": 1,
+            "reps": "10 min"
+          },
+          {
+            "name": "5 x 800 m controlled / 2 min walk-jog",
+            "sets": 1,
+            "reps": "0.8 km",
+            "distanceKm": 0.8
+          },
+          {
+            "name": "Stop before form fades",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 0.8
+      }
+    ]
+  },
+  {
+    "id": "week25-wednesday",
+    "title": "Week 25 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w25-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week25-thursday",
+    "title": "Week 25 Thursday",
+    "subtitle": "Home HYROX Skills",
+    "items": [
+      {
+        "id": "w25-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Home HYROX Skills",
+        "workouts": [
+          {
+            "name": "4 rounds at controlled effort",
+            "sets": 4,
+            "reps": "round"
+          },
+          {
+            "name": "600 m run",
+            "sets": 1,
+            "reps": "0.6 km",
+            "distanceKm": 0.6
+          },
+          {
+            "name": "Rower: 500 m steady",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "Kettlebell swings or fast high pulls: 15-20 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Incline treadmill march with vest or unloaded: 3 min",
+            "sets": 1,
+            "reps": "3 min"
+          },
+          {
+            "name": "Water-bag lunges or reverse lunges: 8-10/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Dumbbell thrusters: 12-15 reps",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Rest enough to keep movement tidy",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week25-friday",
+    "title": "Week 25 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w25-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week25-saturday",
+    "title": "Week 25 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w25-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "4 steady rounds",
+            "sets": 4,
+            "reps": "round"
+          },
+          {
+            "name": "750 m run/walk",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "500 m row",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "Farmers carry: 60 m",
+            "sets": 1,
+            "reps": "0.06 km",
+            "distanceKm": 0.06
+          },
+          {
+            "name": "Water-bag or reverse lunges: 8-10/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week25-sunday",
+    "title": "Week 25 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w25-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week26-monday",
+    "title": "Week 26 Monday",
+    "subtitle": "Strength, Carries + Core",
+    "items": [
+      {
+        "id": "w26-monday-strength",
+        "type": "strength",
+        "label": "Strength, Carries + Core",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 4,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 5,
+            "reps": "50 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week26-tuesday",
+    "title": "Week 26 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w26-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "10 min easy",
+            "sets": 1,
+            "reps": "10 min"
+          },
+          {
+            "name": "5 x 800 m controlled / 2 min walk-jog",
+            "sets": 1,
+            "reps": "0.8 km",
+            "distanceKm": 0.8
+          },
+          {
+            "name": "Stop before form fades",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 0.8
+      }
+    ]
+  },
+  {
+    "id": "week26-wednesday",
+    "title": "Week 26 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w26-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week26-thursday",
+    "title": "Week 26 Thursday",
+    "subtitle": "Gym HYROX Skills",
+    "items": [
+      {
+        "id": "w26-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Gym HYROX Skills",
+        "workouts": [
+          {
+            "name": "4 rounds at controlled race practice effort",
+            "sets": 4,
+            "reps": "round"
+          },
+          {
+            "name": "600 m run",
+            "sets": 1,
+            "reps": "0.6 km",
+            "distanceKm": 0.6
+          },
+          {
+            "name": "SkiErg: 500-750 m smooth technique",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "Sled push: 2-4 lengths, build load gradually",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Sled pull: 2-4 lengths, smooth rope work",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Wall balls",
+            "sets": 3,
+            "reps": "10-20 clean reps"
+          },
+          {
+            "name": "Stop with one good rep still in the tank",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week26-friday",
+    "title": "Week 26 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w26-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week26-saturday",
+    "title": "Week 26 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w26-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "4 steady rounds",
+            "sets": 4,
+            "reps": "round"
+          },
+          {
+            "name": "750 m run/walk",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "500 m row",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "Farmers carry: 60 m",
+            "sets": 1,
+            "reps": "0.06 km",
+            "distanceKm": 0.06
+          },
+          {
+            "name": "Water-bag or reverse lunges: 8-10/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week26-sunday",
+    "title": "Week 26 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w26-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week27-monday",
+    "title": "Week 27 Monday",
+    "subtitle": "Strength, Carries + Core",
+    "items": [
+      {
+        "id": "w27-monday-strength",
+        "type": "strength",
+        "label": "Strength, Carries + Core",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 4,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 5,
+            "reps": "50 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week27-tuesday",
+    "title": "Week 27 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w27-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "10 min easy",
+            "sets": 1,
+            "reps": "10 min"
+          },
+          {
+            "name": "5 x 800 m controlled / 2 min walk-jog",
+            "sets": 1,
+            "reps": "0.8 km",
+            "distanceKm": 0.8
+          },
+          {
+            "name": "Stop before form fades",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 0.8
+      }
+    ]
+  },
+  {
+    "id": "week27-wednesday",
+    "title": "Week 27 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w27-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week27-thursday",
+    "title": "Week 27 Thursday",
+    "subtitle": "Gym HYROX Skills",
+    "items": [
+      {
+        "id": "w27-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Gym HYROX Skills",
+        "workouts": [
+          {
+            "name": "4 rounds at controlled race practice effort",
+            "sets": 4,
+            "reps": "round"
+          },
+          {
+            "name": "600 m run",
+            "sets": 1,
+            "reps": "0.6 km",
+            "distanceKm": 0.6
+          },
+          {
+            "name": "SkiErg: 500-750 m smooth technique",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "Sled push: 2-4 lengths, build load gradually",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Sled pull: 2-4 lengths, smooth rope work",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Wall balls",
+            "sets": 3,
+            "reps": "10-20 clean reps"
+          },
+          {
+            "name": "Stop with one good rep still in the tank",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week27-friday",
+    "title": "Week 27 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w27-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week27-saturday",
+    "title": "Week 27 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w27-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "4 steady rounds",
+            "sets": 4,
+            "reps": "round"
+          },
+          {
+            "name": "750 m run/walk",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "500 m row",
+            "sets": 1,
+            "reps": "0.5 km",
+            "distanceKm": 0.5
+          },
+          {
+            "name": "Farmers carry: 60 m",
+            "sets": 1,
+            "reps": "0.06 km",
+            "distanceKm": 0.06
+          },
+          {
+            "name": "Water-bag or reverse lunges: 8-10/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week27-sunday",
+    "title": "Week 27 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w27-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week28-monday",
+    "title": "Week 28 Monday",
+    "subtitle": "Strength, Carries + Core",
+    "items": [
+      {
+        "id": "w28-monday-strength",
+        "type": "strength",
+        "label": "Strength, Carries + Core",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 2,
+            "reps": "8-10"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 2,
+            "reps": "8-10"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 2,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 2,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 6,
+            "reps": "50-60 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week28-tuesday",
+    "title": "Week 28 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w28-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "25-35 min easy run/walk",
+            "sets": 1,
+            "reps": "25-35 min"
+          },
+          {
+            "name": "4 relaxed strides if legs feel good",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Finish fresh",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week28-wednesday",
+    "title": "Week 28 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w28-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week28-thursday",
+    "title": "Week 28 Thursday",
+    "subtitle": "Gym HYROX Skills",
+    "items": [
+      {
+        "id": "w28-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Gym HYROX Skills",
+        "workouts": [
+          {
+            "name": "2 rounds at controlled race practice effort",
+            "sets": 2,
+            "reps": "round"
+          },
+          {
+            "name": "800 m controlled run",
+            "sets": 1,
+            "reps": "0.8 km",
+            "distanceKm": 0.8
+          },
+          {
+            "name": "SkiErg: 500-750 m smooth technique",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "Sled push: 2-4 lengths, build load gradually",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Sled pull: 2-4 lengths, smooth rope work",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Wall balls",
+            "sets": 3,
+            "reps": "10-20 clean reps"
+          },
+          {
+            "name": "Stop with one good rep still in the tank",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week28-friday",
+    "title": "Week 28 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w28-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week28-saturday",
+    "title": "Week 28 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w28-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "2 steady rounds",
+            "sets": 2,
+            "reps": "round"
+          },
+          {
+            "name": "1 km run/walk",
+            "sets": 1,
+            "reps": "1 km",
+            "distanceKm": 1
+          },
+          {
+            "name": "750 m row",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "Farmers carry: 60 m",
+            "sets": 1,
+            "reps": "0.06 km",
+            "distanceKm": 0.06
+          },
+          {
+            "name": "Water-bag or reverse lunges: 8-10/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week28-sunday",
+    "title": "Week 28 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w28-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week29-monday",
+    "title": "Week 29 Monday",
+    "subtitle": "Strength, Carries + Core",
+    "items": [
+      {
+        "id": "w29-monday-strength",
+        "type": "strength",
+        "label": "Strength, Carries + Core",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 4,
+            "reps": "5-10"
+          },
+          {
+            "name": "Farmers carry or water-bag bear-hug carry",
+            "sets": 6,
+            "reps": "50-60 m"
+          },
+          {
+            "name": "Core: dead bug, side plank and leg raise, 2-3 controlled rounds",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Grip: powerball or grip donut, 2 short easy rounds",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week29-tuesday",
+    "title": "Week 29 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w29-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "10 min easy",
+            "sets": 1,
+            "reps": "10 min"
+          },
+          {
+            "name": "4-6 x 1 km at planned HYROX run effort / 90 sec easy",
+            "sets": 1,
+            "reps": "1 km",
+            "distanceKm": 1
+          },
+          {
+            "name": "Cool down easy",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ],
+        "distanceKm": 1
+      }
+    ]
+  },
+  {
+    "id": "week29-wednesday",
+    "title": "Week 29 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w29-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "30-35 min easy bike, row or treadmill walk",
+            "sets": 1,
+            "reps": "30-35 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week29-thursday",
+    "title": "Week 29 Thursday",
+    "subtitle": "Gym HYROX Skills",
+    "items": [
+      {
+        "id": "w29-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Gym HYROX Skills",
+        "workouts": [
+          {
+            "name": "5 rounds at controlled race practice effort",
+            "sets": 5,
+            "reps": "round"
+          },
+          {
+            "name": "800 m controlled run",
+            "sets": 1,
+            "reps": "0.8 km",
+            "distanceKm": 0.8
+          },
+          {
+            "name": "SkiErg: 500-750 m smooth technique",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "Sled push: 2-4 lengths, build load gradually",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Sled pull: 2-4 lengths, smooth rope work",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Wall balls",
+            "sets": 3,
+            "reps": "10-20 clean reps"
+          },
+          {
+            "name": "Stop with one good rep still in the tank",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week29-friday",
+    "title": "Week 29 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w29-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week29-saturday",
+    "title": "Week 29 Saturday",
+    "subtitle": "Compromised Running",
+    "items": [
+      {
+        "id": "w29-saturday-mixed",
+        "type": "mixed",
+        "label": "Compromised Running",
+        "workouts": [
+          {
+            "name": "5 steady rounds",
+            "sets": 5,
+            "reps": "round"
+          },
+          {
+            "name": "1 km run/walk",
+            "sets": 1,
+            "reps": "1 km",
+            "distanceKm": 1
+          },
+          {
+            "name": "750 m row",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "Farmers carry: 60 m",
+            "sets": 1,
+            "reps": "0.06 km",
+            "distanceKm": 0.06
+          },
+          {
+            "name": "Water-bag or reverse lunges: 8-10/leg",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Easy walk between rounds as needed",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week29-sunday",
+    "title": "Week 29 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w29-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week30-monday",
+    "title": "Week 30 Monday",
+    "subtitle": "Light Strength Tune-Up",
+    "items": [
+      {
+        "id": "w30-monday-strength",
+        "type": "strength",
+        "label": "Light Strength Tune-Up",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 2,
+            "reps": "8-10"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 2,
+            "reps": "8-10"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 2,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 2,
+            "reps": "5-10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week30-tuesday",
+    "title": "Week 30 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w30-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "25-35 min easy run/walk",
+            "sets": 1,
+            "reps": "25-35 min"
+          },
+          {
+            "name": "4 relaxed strides if legs feel good",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Finish fresh",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week30-wednesday",
+    "title": "Week 30 Wednesday",
+    "subtitle": "Zone 2 + Core",
+    "items": [
+      {
+        "id": "w30-wednesday-recovery",
+        "type": "recovery",
+        "label": "Zone 2 + Core",
+        "workouts": [
+          {
+            "name": "20-25 min easy bike, row or walk",
+            "sets": 1,
+            "reps": "20-25 min"
+          },
+          {
+            "name": "Core: dead bug 2 x 8/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Core: side plank 2 x 20-40 sec/side",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Mobility: hips, calves and upper back",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week30-thursday",
+    "title": "Week 30 Thursday",
+    "subtitle": "Technique Circuit",
+    "items": [
+      {
+        "id": "w30-thursday-hyrox",
+        "type": "hyrox",
+        "label": "Technique Circuit",
+        "workouts": [
+          {
+            "name": "2 rounds at controlled race practice effort",
+            "sets": 2,
+            "reps": "round"
+          },
+          {
+            "name": "800 m controlled run",
+            "sets": 1,
+            "reps": "0.8 km",
+            "distanceKm": 0.8
+          },
+          {
+            "name": "SkiErg: 500-750 m smooth technique",
+            "sets": 1,
+            "reps": "0.75 km",
+            "distanceKm": 0.75
+          },
+          {
+            "name": "Sled push: 2-4 lengths, build load gradually",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Sled pull: 2-4 lengths, smooth rope work",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week30-friday",
+    "title": "Week 30 Friday",
+    "subtitle": "Rest Day",
+    "items": [
+      {
+        "id": "w30-friday-rest",
+        "type": "rest",
+        "label": "Rest Day",
+        "workouts": [
+          {
+            "name": "Rest",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Optional 5-10 min gentle mobility only",
+            "sets": 1,
+            "reps": "5-10 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week30-saturday",
+    "title": "Week 30 Saturday",
+    "subtitle": "Short Mixed Rehearsal",
+    "items": [
+      {
+        "id": "w30-saturday-mixed",
+        "type": "mixed",
+        "label": "Short Mixed Rehearsal",
+        "workouts": [
+          {
+            "name": "2 relaxed rounds",
+            "sets": 2,
+            "reps": "round"
+          },
+          {
+            "name": "400 m run/walk",
+            "sets": 1,
+            "reps": "0.4 km",
+            "distanceKm": 0.4
+          },
+          {
+            "name": "250 m row",
+            "sets": 1,
+            "reps": "0.25 km",
+            "distanceKm": 0.25
+          },
+          {
+            "name": "Light carries or lunges",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Stop feeling sharp",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week30-sunday",
+    "title": "Week 30 Sunday",
+    "subtitle": "Sun Recovery Day",
+    "items": [
+      {
+        "id": "w30-sunday-recovery",
+        "type": "recovery",
+        "label": "Sun Recovery Day",
+        "workouts": [
+          {
+            "name": "10-30 min easy walk or bike",
+            "sets": 1,
+            "reps": "10-30 min"
+          },
+          {
+            "name": "5-10 min mobility",
+            "sets": 1,
+            "reps": "5-10 min"
+          },
+          {
+            "name": "No fatigue chasing today",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week31-monday",
+    "title": "Week 31 Monday",
+    "subtitle": "Light Strength Tune-Up",
+    "items": [
+      {
+        "id": "w31-monday-strength",
+        "type": "strength",
+        "label": "Light Strength Tune-Up",
+        "workouts": [
+          {
+            "name": "Warm-up: 5-8 min easy row, bike or treadmill walk",
+            "sets": 1,
+            "reps": "5-8 min"
+          },
+          {
+            "name": "Goblet squat or double-kettlebell front squat",
+            "sets": 2,
+            "reps": "8-10"
+          },
+          {
+            "name": "Kettlebell Romanian deadlift",
+            "sets": 2,
+            "reps": "8-10"
+          },
+          {
+            "name": "Dumbbell floor press, push-up or dip progression",
+            "sets": 2,
+            "reps": "8-12"
+          },
+          {
+            "name": "Pull-up progression, controlled negatives or hanging knee raise",
+            "sets": 2,
+            "reps": "5-10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week31-tuesday",
+    "title": "Week 31 Tuesday",
+    "subtitle": "Run Quality",
+    "items": [
+      {
+        "id": "w31-tuesday-run",
+        "type": "run",
+        "label": "Run Quality",
+        "workouts": [
+          {
+            "name": "25-35 min easy run/walk",
+            "sets": 1,
+            "reps": "25-35 min"
+          },
+          {
+            "name": "4 relaxed strides if legs feel good",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "Finish fresh",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week31-wednesday",
+    "title": "Week 31 Wednesday",
+    "subtitle": "HYROX Race Day",
+    "items": [
+      {
+        "id": "w31-wednesday-hyrox",
+        "type": "hyrox",
+        "label": "HYROX Race Day",
+        "workouts": [
+          {
+            "name": "Run 1 km + SkiErg 1000 m",
+            "sets": 1,
+            "reps": "1 km",
+            "distanceKm": 1
+          },
+          {
+            "name": "Run 1 km + sled push 50 m",
+            "sets": 1,
+            "reps": "1 km",
+            "distanceKm": 1
+          },
+          {
+            "name": "Run 1 km + sled pull 50 m",
+            "sets": 1,
+            "reps": "1 km",
+            "distanceKm": 1
+          },
+          {
+            "name": "Run 1 km + burpee broad jumps 80 m",
+            "sets": 1,
+            "reps": "1 km",
+            "distanceKm": 1
+          },
+          {
+            "name": "Run 1 km + row 1000 m",
+            "sets": 1,
+            "reps": "1 km",
+            "distanceKm": 1
+          },
+          {
+            "name": "Run 1 km + farmers carry 200 m",
+            "sets": 1,
+            "reps": "1 km",
+            "distanceKm": 1
+          },
+          {
+            "name": "Run 1 km + sandbag lunges 100 m",
+            "sets": 1,
+            "reps": "1 km",
+            "distanceKm": 1
+          },
+          {
+            "name": "Run 1 km + wall balls 100 reps",
+            "sets": 1,
+            "reps": "1 km",
+            "distanceKm": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week31-thursday",
+    "title": "Week 31 Thursday",
+    "subtitle": "Post-Race Recovery",
+    "items": [
+      {
+        "id": "w31-thursday-recovery",
+        "type": "recovery",
+        "label": "Post-Race Recovery",
+        "workouts": [
+          {
+            "name": "Easy walk or bike 10-20 min",
+            "sets": 1,
+            "reps": "10-20 min"
+          },
+          {
+            "name": "Gentle hips, calves and back mobility",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "No testing, no punishment",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week31-friday",
+    "title": "Week 31 Friday",
+    "subtitle": "Post-Race Recovery",
+    "items": [
+      {
+        "id": "w31-friday-recovery",
+        "type": "recovery",
+        "label": "Post-Race Recovery",
+        "workouts": [
+          {
+            "name": "Easy walk or bike 10-20 min",
+            "sets": 1,
+            "reps": "10-20 min"
+          },
+          {
+            "name": "Gentle hips, calves and back mobility",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "No testing, no punishment",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week31-saturday",
+    "title": "Week 31 Saturday",
+    "subtitle": "Post-Race Recovery",
+    "items": [
+      {
+        "id": "w31-saturday-recovery",
+        "type": "recovery",
+        "label": "Post-Race Recovery",
+        "workouts": [
+          {
+            "name": "Easy walk or bike 10-20 min",
+            "sets": 1,
+            "reps": "10-20 min"
+          },
+          {
+            "name": "Gentle hips, calves and back mobility",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "No testing, no punishment",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "week31-sunday",
+    "title": "Week 31 Sunday",
+    "subtitle": "Post-Race Recovery",
+    "items": [
+      {
+        "id": "w31-sunday-recovery",
+        "type": "recovery",
+        "label": "Post-Race Recovery",
+        "workouts": [
+          {
+            "name": "Easy walk or bike 10-20 min",
+            "sets": 1,
+            "reps": "10-20 min"
+          },
+          {
+            "name": "Gentle hips, calves and back mobility",
+            "sets": 1,
+            "reps": "complete"
+          },
+          {
+            "name": "No testing, no punishment",
+            "sets": 1,
+            "reps": "complete"
+          }
+        ]
+      }
+    ]
+  }
+]

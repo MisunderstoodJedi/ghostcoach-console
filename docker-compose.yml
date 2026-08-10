@@ -1,0 +1,42 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: hyrox-protocol-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Set MYSQL_ROOT_PASSWORD in .env}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-hyrox_protocol}
+      MYSQL_USER: ${MYSQL_USER:-hyrox}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Set MYSQL_PASSWORD in .env}
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u\"$${MYSQL_USER}\" -p\"$${MYSQL_PASSWORD}\""]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: ./backend
+    container_name: hyrox-protocol-api
+    restart: unless-stopped
+    environment:
+      DB_HOST: db
+      DB_USER: ${MYSQL_USER:-hyrox}
+      DB_PASS: ${MYSQL_PASSWORD:?Set MYSQL_PASSWORD in .env}
+      DB_NAME: ${MYSQL_DATABASE:-hyrox_protocol}
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    build: .
+    container_name: hyrox-protocol-web
+    restart: unless-stopped
+    ports:
+      - "3344:80"
+    depends_on:
+      - api
+
+volumes:
+  db_data:

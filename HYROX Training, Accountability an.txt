@@ -1,0 +1,1145 @@
+# HYROX Training, Accountability and Content Platform
+
+## Project Objective
+
+Extend the existing six-month HYROX workout tracker into a cohesive personal training, health tracking, accountability and content-creation application.
+
+The existing workout plan and weekly tracking functionality should remain intact. The objective is to expand the application rather than replace it.
+
+The finished application should act as a central environment for:
+
+* Following the six-month workout plan
+* Recording completed workouts
+* Tracking health, recovery and lifestyle information
+* Monitoring progress and trends
+* Recording notes and reflections
+* Creating social-media content from completed activities
+* Planning and tracking posts
+* Maintaining accountability
+* Reviewing weekly and monthly performance
+* Building a documented story from beginner to HYROX participant
+
+The application should not feel like several unrelated tools placed together. Workout tracking, health data, progress analysis and content creation should all feed into one another.
+
+---
+
+# 1. Core User Journey
+
+The normal daily process should be:
+
+1. Open the dashboard.
+2. See today's planned workout and current priorities.
+3. Review sleep, recovery and readiness.
+4. Complete the workout.
+5. Enter results and notes.
+6. Add photos, clips or screenshots where applicable.
+7. Record a short post-workout reflection.
+8. Allow the app to identify useful progress statistics or story points.
+9. Generate or prepare a draft social-media post.
+10. Add the post to the content calendar.
+11. Mark it as drafted, recorded, edited or published.
+
+The normal weekly process should be:
+
+1. Review planned versus completed workouts.
+2. Review sleep, body measurements, running distance and performance.
+3. Identify wins, setbacks and lessons.
+4. Generate a weekly content summary.
+5. Plan the following week's workouts and posts.
+6. Record a weekly accountability update.
+
+---
+
+# 2. Main Navigation
+
+The application should have the following main sections:
+
+* Home Dashboard
+* Today
+* Training Plan
+* Workout Log
+* Health and Recovery
+* Progress
+* Content Studio
+* Content Calendar
+* Media Library
+* Weekly Review
+* Goals and Milestones
+* Equipment
+* Settings
+
+Navigation should remain simple and should work well on desktop and mobile.
+
+---
+
+# 3. Home Dashboard
+
+The home dashboard should provide an immediate overview rather than require the user to open several pages.
+
+## Dashboard summary cards
+
+Display:
+
+* Current programme week
+* Days until target HYROX event
+* Today's workout
+* Current training streak
+* Workouts completed this week
+* Weekly completion percentage
+* Latest weight
+* Weight change
+* Latest body-fat percentage
+* Average sleep
+* Recovery or readiness score
+* Distance walked this week
+* Distance run this week
+* Total training time this week
+* Posts published this week
+* Content waiting to be created
+* Current social posting streak
+
+## Dashboard panels
+
+Include:
+
+### Today's Plan
+
+* Planned workout
+* Expected duration
+* Target intensity
+* Main objective
+* Equipment required
+* Start or log workout button
+
+### Readiness
+
+Use recent information such as:
+
+* Sleep duration
+* Sleep quality
+* Resting heart rate
+* Muscle soreness
+* Energy
+* Stress
+* Previous workout intensity
+
+Produce a simple readiness result such as:
+
+* Ready
+* Moderate
+* Recovery advised
+
+This should be guidance only and should not automatically alter the training plan without user approval.
+
+### Current Progress
+
+Show trends for:
+
+* Weight
+* Body-fat percentage
+* Running pace
+* Weekly running distance
+* Weekly walking distance
+* Workout consistency
+* Sleep
+* Resting heart rate
+* Selected exercise performance
+
+### Accountability
+
+Display:
+
+* Workouts missed
+* Daily logs not completed
+* Weekly review due
+* Posts planned but not published
+* Current streaks
+* Next milestone
+
+### Content Opportunities
+
+Show automatically identified content ideas such as:
+
+* New personal best
+* Longest run so far
+* Improved pace
+* First completion of a new workout
+* Difficult workout completed
+* Missed workout and recovery lesson
+* Equipment change
+* Weight milestone
+* Consistency milestone
+* Weekly recap due
+
+---
+
+# 4. Today Page
+
+The Today page should be the main daily working area.
+
+## Morning Check-In
+
+Allow entry of:
+
+* Sleep duration
+* Sleep quality from 1 to 10
+* Morning body weight
+* Body-fat percentage
+* Resting heart rate
+* Energy from 1 to 10
+* Motivation from 1 to 10
+* Muscle soreness
+* Stress from 1 to 10
+* General notes
+
+Use this information to calculate a transparent readiness score.
+
+The app should show how the score was calculated rather than presenting an unexplained result.
+
+## Today's Workout
+
+Display the workout already defined in the existing training plan.
+
+Include:
+
+* Exercise list
+* Sets
+* Repetitions
+* Distances
+* Durations
+* Rest periods
+* Target pace
+* Target heart-rate zone
+* Instructions
+* Equipment
+* Modifications or easier alternatives
+* Previous result for comparison
+
+## Post-Workout Log
+
+Allow entry of:
+
+* Completed, partially completed, skipped or rescheduled
+* Actual duration
+* Actual distance
+* Average pace
+* Average heart rate
+* Maximum heart rate
+* Calories, where available
+* Perceived effort from 1 to 10
+* Pain or discomfort
+* Exercises modified
+* Workout notes
+* What went well
+* What was difficult
+* What was learned
+* What to change next time
+* Mood after training
+* Photo, video or screenshot attachments
+
+## Quick Content Capture
+
+Immediately after saving a workout, prompt for:
+
+* One-sentence reaction
+* Best moment
+* Hardest moment
+* One useful lesson
+* A quote or humorous comment
+* Whether the workout should become a post
+* Whether any media was recorded
+
+This should be deliberately quick so that content capture does not become another large task.
+
+---
+
+# 5. Training Plan and Workout Log
+
+Retain the existing six-month workout programme and all current workout tracking features.
+
+Enhance it with:
+
+* Calendar view
+* Week view
+* Programme phase view
+* Planned versus completed comparison
+* Reschedule function
+* Missed-workout reason
+* Exercise substitutions
+* Personal-best detection
+* Previous-performance comparison
+* Training-volume calculations
+* Workout tags
+* Search and filters
+* Notes against individual exercises
+* Links between workout records and related social posts
+
+Suggested workout tags:
+
+* Running
+* Strength
+* HYROX simulation
+* Conditioning
+* Mobility
+* Recovery
+* Walking
+* Indoor
+* Outdoor
+* Personal best
+* Difficult session
+* Technique
+* Equipment test
+
+---
+
+# 6. Health and Recovery Tracking
+
+Create one unified health and recovery section.
+
+## Daily data
+
+Track:
+
+* Weight
+* Body-fat percentage
+* Sleep duration
+* Sleep quality
+* Bedtime
+* Wake time
+* Resting heart rate
+* Steps
+* Distance walked
+* Distance run
+* Water intake
+* Energy
+* Stress
+* Motivation
+* Soreness
+* Mood
+* Recovery notes
+
+## Optional data
+
+Support optional entry or future integration for:
+
+* Heart-rate variability
+* Blood pressure
+* Calories consumed
+* Protein intake
+* Waist measurement
+* Chest measurement
+* Hip measurement
+* Thigh measurement
+* Arm measurement
+* VO2 max estimate
+* Training load
+* Active calories
+* Device data from Garmin, Fitbit, Apple Health or similar platforms
+
+The first version does not need direct wearable integration, but the data model should allow it to be added later.
+
+## Important design principle
+
+Do not make every field mandatory.
+
+The user should be able to complete a quick daily check-in with only a few values and add more detail when available.
+
+---
+
+# 7. Progress and Analytics
+
+Create a progress area that combines training, health and consistency information.
+
+## Time filters
+
+Allow:
+
+* Seven days
+* Four weeks
+* Twelve weeks
+* Programme to date
+* Custom dates
+
+## Charts and metrics
+
+Include:
+
+* Weight trend
+* Body-fat trend
+* Sleep trend
+* Resting-heart-rate trend
+* Steps
+* Distance walked
+* Distance run
+* Weekly workout completion
+* Total workout duration
+* Running pace
+* Fastest kilometre
+* Longest run
+* Strength progression
+* Exercise-specific progression
+* Training load
+* Perceived effort
+* Mood and motivation
+* Content-posting consistency
+* Followers and engagement where manually entered
+
+## Milestone detection
+
+Automatically identify:
+
+* First completed week
+* Seven-day streak
+* Four-week consistency milestone
+* Weight milestones
+* Distance milestones
+* Pace improvements
+* Personal bests
+* First full simulation workout
+* Programme-quarter completion
+* Programme-halfway point
+* One hundred workouts or another configured target
+
+Milestones should be available for use in social-media posts.
+
+---
+
+# 8. Content Studio
+
+The Content Studio should convert training activity into usable content.
+
+It should not require the user to invent a completely new post every time.
+
+## Content record fields
+
+Each content item should include:
+
+* Title or working name
+* Platform
+* Content type
+* Related workout
+* Related milestone
+* Date created
+* Planned publication date
+* Status
+* Hook
+* Main story
+* Useful statistics
+* Lesson
+* Closing line
+* Call to action
+* Caption
+* Hashtags
+* Media attachments
+* Editing notes
+* Published URL
+* Performance results
+* Personal notes
+
+## Platforms
+
+Support:
+
+* TikTok
+* YouTube Shorts
+* YouTube long-form
+* Instagram Reels
+* Instagram post
+* Facebook
+* Other
+
+A single content item should be reusable across multiple platforms.
+
+## Content statuses
+
+Use:
+
+* Idea
+* Notes captured
+* Drafted
+* Ready to record
+* Recorded
+* Editing
+* Scheduled
+* Published
+* Reuse later
+* Cancelled
+
+## Content pillars
+
+Categorise content using:
+
+### Journey
+
+* Progress updates
+* Weekly recaps
+* Milestones
+* Setbacks
+* Accountability posts
+
+### Training
+
+* Workout clips
+* Running progress
+* Exercise technique
+* HYROX preparation
+* Workout comparisons
+
+### Learning
+
+* Mistakes
+* Lessons
+* New exercises
+* Equipment discoveries
+* Recovery lessons
+
+### Behind the Scenes
+
+* Dashboard
+* Planning
+* Home training setup
+* Meal preparation
+* Equipment
+* Data tracking
+
+### Personality
+
+* Humour
+* Honest reactions
+* Complaints
+* Unexpected moments
+* Beginner observations
+* IT and data references
+
+---
+
+# 9. Post Generator
+
+Provide a guided post-generation system.
+
+The user should be able to select a completed workout or milestone and ask the application to assemble a draft.
+
+## Standard short-video structure
+
+Generate content using:
+
+### Hook
+
+A first sentence intended to hold attention.
+
+Examples:
+
+* I nearly skipped this workout.
+* Six weeks ago I could not do this.
+* This looked much easier on the plan.
+* My dashboard said I was improving. The workout disagreed.
+* This was supposed to be a recovery session.
+* Today I found my weakest HYROX station.
+
+### Context
+
+Briefly explain:
+
+* What the workout was
+* Why it mattered
+* Where it fits in the programme
+
+### Evidence
+
+Use real recorded information:
+
+* Time
+* Distance
+* Pace
+* Heart rate
+* Weight
+* Number of rounds
+* Previous result
+* Personal best
+* Consistency streak
+
+### Honest Reaction
+
+Use the saved post-workout reflection.
+
+### Lesson
+
+State one thing learned.
+
+### Next Step
+
+Explain what happens next.
+
+## Suggested output formats
+
+Generate:
+
+* 15-second script
+* 30-second script
+* 60-second script
+* TikTok caption
+* YouTube Shorts title
+* YouTube Shorts description
+* Instagram caption
+* Weekly recap outline
+* Longer YouTube video outline
+* On-screen text
+* Shot list
+* Thumbnail text ideas
+
+Drafts should always remain editable.
+
+---
+
+# 10. Automatic Content Suggestions
+
+After a workout or weekly review, the application should check for notable data.
+
+Examples:
+
+* Pace improved by a meaningful amount
+* Distance increased
+* New exercise completed
+* First workout after a break
+* Workout completed despite low motivation
+* Workout missed
+* Sleep affected performance
+* New personal best
+* Programme milestone reached
+* Three or more workouts completed in one week
+* Difficult week completed
+* New equipment used
+* Weight changed significantly
+* First attempt at a HYROX-style simulation
+
+For each detected opportunity, suggest:
+
+* Possible angle
+* Suggested hook
+* Useful statistics
+* Recommended format
+* Relevant media
+* Suggested publication date
+
+Do not automatically publish anything.
+
+---
+
+# 11. Content Calendar
+
+Create a calendar for planned and published content.
+
+## Calendar views
+
+Include:
+
+* Monthly
+* Weekly
+* List
+* Platform-specific
+
+## Recommended sustainable schedule
+
+Default to a manageable plan such as:
+
+* Two workout updates per week
+* One weekly recap
+* Optional additional milestone or personality post
+
+The system should not encourage posting every day unless the user chooses to.
+
+## Calendar information
+
+Each item should display:
+
+* Platform
+* Format
+* Status
+* Related workout
+* Required media
+* Draft readiness
+* Scheduled date
+* Published date
+
+Include drag-and-drop rescheduling where practical.
+
+---
+
+# 12. Media Library
+
+Create a simple media-management area for:
+
+* Workout videos
+* Progress photographs
+* Dashboard screenshots
+* Exercise clips
+* Equipment photographs
+* Voice notes
+* Thumbnail images
+* Before-and-after comparisons
+
+## Media metadata
+
+Store:
+
+* Date
+* Media type
+* Related workout
+* Exercise
+* Orientation
+* Duration
+* Description
+* Tags
+* Whether it has been used
+* Related content posts
+
+The application should help prevent useful footage from being forgotten.
+
+The first implementation may store file paths or references rather than building a full cloud-storage system.
+
+---
+
+# 13. Weekly Review
+
+The weekly review should combine training and content accountability.
+
+## Training review
+
+Show:
+
+* Planned workouts
+* Completed workouts
+* Partial workouts
+* Missed workouts
+* Completion percentage
+* Total exercise time
+* Distance walked
+* Distance run
+* Average sleep
+* Average weight
+* Weight change
+* Average readiness
+* Personal bests
+* Most difficult workout
+* Best workout
+* Main lesson
+
+## Content review
+
+Show:
+
+* Content ideas captured
+* Posts drafted
+* Posts published
+* Posting consistency
+* Best-performing post
+* Most comfortable content format
+* Content still waiting for action
+
+## Weekly reflection prompts
+
+Ask:
+
+* What went well?
+* What did not go well?
+* What nearly caused me to stop?
+* What was easier than expected?
+* What did I learn?
+* What should change next week?
+* What am I proud of?
+* What story from this week is worth sharing?
+
+## Weekly content output
+
+Allow the review to generate:
+
+* Weekly recap script
+* Caption
+* Statistics summary
+* Before-and-after comparison
+* Suggested clips
+* Next-week introduction post
+
+---
+
+# 14. Goals and Milestones
+
+Support several types of goals.
+
+## Outcome goals
+
+Examples:
+
+* Complete a HYROX event
+* Finish within a target time
+* Reach a target body weight
+* Run five kilometres without stopping
+
+## Process goals
+
+Examples:
+
+* Complete three workouts per week
+* Record sleep five days per week
+* Publish three posts per week
+* Complete every weekly review
+
+## Performance goals
+
+Examples:
+
+* Improve five-kilometre pace
+* Complete a target number of burpees
+* Row one kilometre within a target time
+* Complete a full simulation
+
+## Content goals
+
+Examples:
+
+* Publish the first video
+* Create twenty posts
+* Maintain a four-week posting streak
+* Reach one hundred followers
+* Produce a complete six-month transformation video
+
+Display progress without allowing follower counts to become the main measure of success.
+
+Training consistency should remain the primary objective.
+
+---
+
+# 15. Equipment Tracking
+
+Create an equipment section containing:
+
+* Equipment name
+* Category
+* Date purchased
+* Cost
+* Condition
+* Usage count
+* Related exercises
+* Notes
+* Replacement date
+* Wishlist status
+* Product link
+* Whether it was personally purchased, gifted or sponsored
+
+## Equipment wishlist
+
+Include:
+
+* Item
+* Priority
+* Expected benefit
+* Approximate price
+* Link
+* Reason for wanting it
+* Suitable sponsor category
+
+This may eventually support public wishlist links, but personal and financial information should not be exposed by default.
+
+---
+
+# 16. Social Performance Tracking
+
+Allow optional manual entry of:
+
+* Followers
+* Views
+* Likes
+* Comments
+* Shares
+* Saves
+* Watch time
+* Average percentage watched
+* Profile visits
+* Link clicks
+
+Associate results with individual posts.
+
+## Analytics
+
+Show:
+
+* Best-performing content pillar
+* Best-performing hook
+* Best video length
+* Best posting day
+* Most engaging topic
+* Posts that were easiest to produce
+* Relationship between consistency and engagement
+
+The system should not optimise solely for views.
+
+It should also show which content formats are sustainable for the user to create.
+
+---
+
+# 17. Accountability System
+
+The accountability system should be supportive rather than punishing.
+
+## Track separate streaks
+
+* Workout streak
+* Daily check-in streak
+* Weekly review streak
+* Content-posting streak
+
+## Missed activity handling
+
+When something is missed:
+
+* Record the reason
+* Allow rescheduling
+* Avoid resetting all progress messaging
+* Prompt for a simple recovery action
+* Offer the missed event as a potential honest-content topic
+
+Example:
+
+“Today's workout was missed. Would you like to reschedule it, replace it with recovery work, or record why it did not happen?”
+
+## Accountability prompts
+
+Examples:
+
+* Today's workout has not been logged.
+* You completed the workout but have not recorded a reflection.
+* A new personal best could make a useful post.
+* Your weekly review is due.
+* Two drafted posts are ready to record.
+* Your sleep has been below your normal level for three days.
+* You have completed four consistent weeks.
+
+---
+
+# 18. Suggested Database Structure
+
+Review the existing database first and extend it without unnecessarily duplicating current tables.
+
+Potential entities include:
+
+* Users
+* Programmes
+* Programme phases
+* Training weeks
+* Planned workouts
+* Completed workouts
+* Exercises
+* Workout exercises
+* Exercise results
+* Daily check-ins
+* Health measurements
+* Sleep records
+* Body measurements
+* Goals
+* Milestones
+* Reflections
+* Content ideas
+* Content items
+* Content platforms
+* Content schedules
+* Content metrics
+* Media assets
+* Equipment
+* Wishlist items
+* Tags
+* Notifications
+* Application settings
+
+Important relationships:
+
+* A completed workout can have multiple reflections.
+* A completed workout can generate multiple content items.
+* A content item can be published on multiple platforms.
+* A media asset can belong to multiple content items.
+* A milestone can relate to training, health or content.
+* Weekly reviews should reference the underlying data rather than duplicate it.
+
+---
+
+# 19. Privacy and Safety
+
+The application will contain personal health and lifestyle information.
+
+Include:
+
+* Authentication
+* Secure password handling
+* Database backups
+* Export functionality
+* Data deletion
+* Private-by-default records
+* Clear separation between private data and publishable information
+* A preview of exactly what information will be included in a generated post
+
+Never automatically include:
+
+* Home address
+* Precise live location
+* Private calendar information
+* Personal medical information
+* Financial information
+* Unapproved body measurements
+* Hidden metadata from uploaded files
+
+Generated posts should use only information deliberately marked as suitable for sharing.
+
+---
+
+# 20. User Experience Requirements
+
+The application should:
+
+* Be fast to use after a workout
+* Avoid demanding excessive data entry
+* Work on a phone
+* Use sensible defaults
+* Save drafts automatically
+* Provide quick-entry buttons
+* Allow detailed entry when wanted
+* Display clear charts
+* Use plain language
+* Avoid fitness-industry jargon where possible
+* Preserve all existing workout-plan functionality
+* Make content creation optional
+* Allow sections to be hidden in settings
+
+A normal post-workout log should be completable in approximately two minutes.
+
+---
+
+# 21. Automation and Future Hermes Agent
+
+Do not make Hermes integration a dependency for the initial application.
+
+Design the application so an agent can be added later.
+
+Potential future agent functions:
+
+* Remind the user about workouts
+* Request a morning check-in
+* Prompt for a post-workout reflection
+* Detect milestones
+* Suggest post ideas
+* Draft captions
+* Prepare weekly recaps
+* Identify incomplete content
+* Remind the user to record required footage
+* Summarise the week's progress
+* Identify changes in training performance
+* Ask why a workout was missed
+* Suggest the next best accountability action
+
+The application should expose appropriate internal functions or API endpoints so a future agent can:
+
+* Read today's workout
+* Read recent health entries
+* Save reminders
+* Create content ideas
+* Create draft posts
+* Read weekly results
+* Mark tasks as completed
+
+No agent should publish content or change the training plan without explicit approval.
+
+---
+
+# 22. Development Approach
+
+Before modifying the application:
+
+1. Inspect the existing project structure.
+2. Identify the framework, database and current components.
+3. Document the existing workout-tracking functionality.
+4. Reuse current styles, components and data models.
+5. Identify any existing features that overlap this brief.
+6. Create a phased implementation plan.
+7. Preserve existing data.
+8. Add database migrations rather than recreating the database.
+9. Implement and test one phase at a time.
+10. Update documentation as work progresses.
+
+Do not rewrite the entire application unless there is a clear technical reason.
+
+---
+
+# 23. Recommended Implementation Phases
+
+## Phase 1 — Unified Daily Tracking
+
+Implement:
+
+* Today page
+* Morning check-in
+* Expanded workout results
+* Post-workout reflection
+* Weight, sleep, body fat, walking and running data
+* Updated dashboard cards
+* Basic progress charts
+
+## Phase 2 — Weekly Accountability
+
+Implement:
+
+* Weekly review
+* Planned versus completed analysis
+* Training streaks
+* Milestones
+* Missed-workout handling
+* Weekly progress summary
+
+## Phase 3 — Content Studio
+
+Implement:
+
+* Content ideas
+* Content records
+* Workout-to-post linking
+* Guided post generator
+* Scripts and captions
+* Content statuses
+* Content calendar
+
+## Phase 4 — Media and Social Analytics
+
+Implement:
+
+* Media library
+* Platform publishing records
+* Manual engagement metrics
+* Content-performance charts
+* Equipment and wishlist tracking
+
+## Phase 5 — Automation Readiness
+
+Implement:
+
+* Notification rules
+* Internal API endpoints
+* Agent-compatible data access
+* Hermes integration specification
+* Reminder and prompt templates
+
+---
+
+# 24. Initial Deliverable
+
+Begin by reviewing the current application and provide:
+
+1. A summary of the current architecture.
+2. A list of existing features that can be reused.
+3. Any database changes required.
+4. A proposed navigation structure.
+5. A phased implementation plan.
+6. Risks or compatibility concerns.
+7. The files expected to be added or modified.
+
+After the review, proceed with Phase 1 unless a genuine blocking technical problem is found.
+
+Where details are not defined in this brief, make sensible decisions that favour simplicity, mobile usability and low-effort data entry.
+
+The main purpose of the application is to help the user consistently train, understand their progress, document the process and turn genuine activity into sustainable content.
