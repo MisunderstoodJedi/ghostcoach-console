@@ -43,8 +43,7 @@ const workoutImages = {
 const phases = [
   ["5K Plan", "#45d483", [1, 8], "Run consistency first. Build the habit, add strength support, and finish the week feeling capable."],
   ["10K Plan", "#3bd6c0", [9, 16], "Extend the aerobic base while keeping two to three strength touches each week."],
-  ["Strength Base", "#f4aa49", [17, 20], "Build trunk strength, work capacity, posture, and body-composition momentum."],
-  ["HYROX Base", "#ff8f4f", [21, 26], "Introduce more specific running and station work while keeping sessions repeatable."],
+  ["15K Plan", "#f4aa49", [17, 26], "Extend the running base again while keeping the existing strength and cross-training support."],
   ["HYROX Specific", "#ff7474", [27, 29], "Practise race rhythm, station transitions, and gym-specific pieces."],
   ["Peak + Taper", "#7ee787", [30, 31], "Reduce fatigue, keep the legs awake, and arrive sharp on Wednesday 10 March 2027."]
 ].map(([name, color, weeks, focus]) => ({ name, color, weeks, focus }));
@@ -84,6 +83,19 @@ const beginner10kPlan = [
   { mon: "Rest", tue: "4.8 km run", wed: "40 min cross", thu: "3.2 km run", fri: "Rest", sat: "60 min cross", sun: "8.0 km run" },
   { mon: "Rest", tue: "4.8 km run", wed: "45 min cross", thu: "3.2 km run", fri: "Rest", sat: "60 min cross", sun: "8.8 km run" },
   { mon: "Rest", tue: "4.8 km run", wed: "30 min cross", thu: "3.2 km run", fri: "Rest", sat: "Rest", sun: "10 km run" }
+];
+
+const beginner15kPlan = [
+  { mon: "Stretch & strengthen", tue: "3.2 km run", wed: "30 min cross", thu: "3.2 km run + strength", fri: "Rest", sat: "3.2 km run", sun: "30 min cross" },
+  { mon: "Stretch & strengthen", tue: "4.8 km run", wed: "30 min cross", thu: "3.2 km run + strength", fri: "Rest", sat: "4.8 km run", sun: "30 min cross" },
+  { mon: "Stretch & strengthen", tue: "4.8 km run", wed: "35 min cross", thu: "3.2 km run + strength", fri: "Rest", sat: "6.4 km run", sun: "30 min cross" },
+  { mon: "Stretch & strengthen", tue: "3.2 km run", wed: "35 min cross", thu: "3.2 km run + strength", fri: "Rest", sat: "3.2 km run", sun: "40 min cross" },
+  { mon: "Stretch & strengthen", tue: "6.4 km run", wed: "40 min cross", thu: "4.8 km run + strength", fri: "Rest", sat: "8.1 km run", sun: "40 min cross" },
+  { mon: "Stretch & strengthen", tue: "6.4 km run", wed: "40 min cross", thu: "4.8 km run + strength", fri: "Rest", sat: "9.7 km run", sun: "50 min cross" },
+  { mon: "Stretch & strengthen", tue: "4.8 km run", wed: "45 min cross", thu: "4.8 km run + strength", fri: "Rest", sat: "6.4 km run", sun: "50 min cross" },
+  { mon: "Stretch & strengthen", tue: "8.1 km run", wed: "45 min cross", thu: "4.8 km run + strength", fri: "Rest", sat: "11.3 km run", sun: "60 min cross" },
+  { mon: "Stretch & strengthen", tue: "8.1 km run", wed: "45 min cross", thu: "4.8 km run + strength", fri: "Rest", sat: "12.9 km run", sun: "60 min cross" },
+  { mon: "Stretch & strengthen", tue: "4.8 km run", wed: "30 min cross", thu: "3.2 km run + strength", fri: "3.2 km run or rest", sat: "Rest", sun: "15K Race" }
 ];
 
 let apiOnline = false;
@@ -273,7 +285,14 @@ function weekDates(week) {
 function runPlanForWeek(week) {
   if (week >= 1 && week <= 8) return beginner5kPlan[week - 1];
   if (week >= 9 && week <= 16) return beginner10kPlan[week - 9];
+  if (week >= 17 && week <= 26) return beginner15kPlan[week - 17];
   return null;
+}
+
+function runPlanNameForWeek(week) {
+  if (week <= 8) return "5K";
+  if (week <= 16) return "10K";
+  return "15K";
 }
 
 function runItemForDate(week, date) {
@@ -355,15 +374,16 @@ function sessionTemplate({ week, date, type, title, duration, intensity, objecti
 }
 
 function runSessionForDate(date, week) {
-  const planName = week <= 8 ? "5K" : "10K";
+  const planName = runPlanNameForWeek(week);
   const item = runItemForDate(week, date);
   const weekday = weekdayIndex(date);
   const lower = String(item).toLowerCase();
-  const isTenKBenchmark = lower.includes("10k run") || lower.includes("10 km run");
+  const isBenchmark = lower.includes("race") || lower.includes("10k run") || lower.includes("10 km run") || lower.includes("15k race");
   const minutes = Number(String(item).match(/(\d+)\s*min/i)?.[1] || 0);
   const km = Number(String(item).match(/(\d+(?:\.\d+)?)\s*km/i)?.[1] || 0);
   const miles = Number(String(item).match(/(\d+(?:\.\d+)?)\s*mi/i)?.[1] || 0);
   const runDuration = minutes || (km ? Math.max(25, Math.round(km * 8)) : miles ? Math.max(30, Math.round(miles * 13)) : 25);
+  const benchmarkDuration = planName === "15K" ? 150 : 120;
 
   if (week <= 8) {
     if (weekday === 1) {
@@ -503,15 +523,15 @@ function runSessionForDate(date, week) {
       week,
       date,
       type: "Strength",
-      title: "Strength A",
+      title: lower.includes("stretch") ? "Stretch + Strength A" : "Strength A",
       duration: 40,
       intensity: "Moderate",
       objective: "Keep lower-body and trunk strength improving while the run plan lengthens.",
       segments: [
-        { title: "Supplied 10K plan", items: [`${planName} plan: ${item}`], checklist: [] },
+        { title: `Supplied ${planName} plan`, items: [`${planName} plan: ${item}`], checklist: [] },
         { title: "Strength support", items: strengthBlockA(week), checklist: strengthBlockA(week) }
       ],
-      notes: ["Treat this as important work, even though Monday says rest for running."],
+      notes: ["Treat this as important work without adding extra running volume."],
       equipment: ["kettlebells16", "dumbbells10", "mat"],
       imageKey: "strength"
     });
@@ -525,7 +545,7 @@ function runSessionForDate(date, week) {
       duration: runDuration,
       intensity: "Easy to steady",
       objective: "Hit the planned run and keep breathing controlled enough that Thursday still has life.",
-      segments: [{ title: "Supplied 10K plan", items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] }],
+      segments: [{ title: `Supplied ${planName} plan`, items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] }],
       notes: ["Comfortable and tidy beats brave and ragged."],
       equipment: ["treadmill", "park"],
       imageKey: "run"
@@ -541,7 +561,7 @@ function runSessionForDate(date, week) {
       intensity: "Easy to moderate",
       objective: "Use low-impact engine work and a short strength block to support the Sunday long run.",
       segments: [
-        { title: "Supplied 10K plan", items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] },
+        { title: `Supplied ${planName} plan`, items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] },
         { title: "Strength support", items: strengthBlockB(week), checklist: strengthBlockB(week) }
       ],
       notes: ["Keep the cross-training smooth. The strength work still matters."],
@@ -559,7 +579,7 @@ function runSessionForDate(date, week) {
       intensity: "Easy",
       objective: "Build run frequency and trunk stiffness without turning this into a grinder.",
       segments: [
-        { title: "Supplied 10K plan", items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] },
+        { title: `Supplied ${planName} plan`, items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] },
         { title: "Core finish", items: coreFinisher(), checklist: coreFinisher() }
       ],
       notes: ["Short and sharp. No bonus fatigue."],
@@ -568,6 +588,22 @@ function runSessionForDate(date, week) {
     });
   }
   if (weekday === 5) {
+    if (lower.includes("run or rest")) {
+      return sessionTemplate({
+        week,
+        date,
+        type: "Optional",
+        title: "Run Or Rest",
+        duration: runDuration,
+        intensity: "Easy or off",
+        objective: "Use this as a genuine choice based on fatigue before the weekend.",
+        segments: [{ title: `Supplied ${planName} plan`, items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] }],
+        notes: ["If legs feel heavy, rest wins."],
+        equipment: ["treadmill", "park"],
+        imageKey: "recovery",
+        isRecovery: true
+      });
+    }
     return sessionTemplate({
       week,
       date,
@@ -576,7 +612,7 @@ function runSessionForDate(date, week) {
       duration: 0,
       intensity: "Off",
       objective: "Leave the legs alone so the weekend work lands well.",
-      segments: [{ title: "Rest", items: ["Supplied 10K plan: Rest"], checklist: [] }],
+      segments: [{ title: "Rest", items: [`Supplied ${planName} plan: Rest`], checklist: [] }],
       notes: ["Easy walking is enough."],
       equipment: [],
       imageKey: "recovery",
@@ -584,6 +620,37 @@ function runSessionForDate(date, week) {
     });
   }
   if (weekday === 6) {
+    if (lower.startsWith("rest")) {
+      return sessionTemplate({
+        week,
+        date,
+        type: "Rest",
+        title: "Rest Day",
+        duration: 0,
+        intensity: "Off",
+        objective: "Protect freshness for the benchmark.",
+        segments: [{ title: "Rest", items: [`Supplied ${planName} plan: Rest`], checklist: [] }],
+        notes: ["Keep this properly easy."],
+        equipment: [],
+        imageKey: "recovery",
+        isRecovery: true
+      });
+    }
+    if (lower.includes("run")) {
+      return sessionTemplate({
+        week,
+        date,
+        type: "Run",
+        title: "Weekend Run",
+        duration: runDuration,
+        intensity: "Easy to steady",
+        objective: "Let the longer run build endurance without chasing pace.",
+        segments: [{ title: `Supplied ${planName} plan`, items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] }],
+        notes: ["Keep it controlled enough to recover."],
+        equipment: ["treadmill", "park"],
+        imageKey: "run"
+      });
+    }
     return sessionTemplate({
       week,
       date,
@@ -593,7 +660,7 @@ function runSessionForDate(date, week) {
       intensity: "Easy to moderate",
       objective: "Keep the engine moving and sprinkle in carries, posture, and grip work.",
       segments: [
-        { title: "Supplied 10K plan", items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] },
+        { title: `Supplied ${planName} plan`, items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] },
         { title: "Strength support", items: strengthBlockC(week), checklist: strengthBlockC(week) }
       ],
       notes: ["Stay smooth so Sunday still feels like the main run."],
@@ -604,15 +671,15 @@ function runSessionForDate(date, week) {
   return sessionTemplate({
     week,
     date,
-    type: isTenKBenchmark ? "Run" : "Run",
-    title: isTenKBenchmark ? "10K Benchmark" : "Long Run",
-    duration: isTenKBenchmark ? 120 : runDuration,
-    intensity: isTenKBenchmark ? "Steady finish effort" : "Easy to steady",
-    objective: isTenKBenchmark ? "Use the 10K as a confidence marker, not a verdict on the whole plan." : "Let the Sunday run extend your aerobic base without chasing pace.",
-    segments: [{ title: "Supplied 10K plan", items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] }],
-    notes: [isTenKBenchmark ? "Record the time and move on." : "Easy enough that form stays tidy."],
-    equipment: ["treadmill", "park"],
-    imageKey: "run"
+    type: lower.includes("cross") ? "Cross" : "Run",
+    title: isBenchmark ? `${planName} Benchmark` : lower.includes("cross") ? "Easy Cross-Training" : "Long Run",
+    duration: isBenchmark ? benchmarkDuration : runDuration,
+    intensity: isBenchmark ? "Steady finish effort" : "Easy to steady",
+    objective: isBenchmark ? `Use the ${planName} as a confidence marker, not a verdict on the whole plan.` : lower.includes("cross") ? "Keep the aerobic work low-impact and smooth." : "Let the Sunday run extend your aerobic base without chasing pace.",
+    segments: [{ title: `Supplied ${planName} plan`, items: [`${planName} plan: ${item}`], checklist: [`${planName} plan: ${item}`] }],
+    notes: [isBenchmark ? "Record the time and move on." : "Easy enough that form stays tidy."],
+    equipment: lower.includes("cross") ? ["rower", "bike"] : ["treadmill", "park"],
+    imageKey: lower.includes("cross") ? "cross" : "run"
   });
 }
 
@@ -912,7 +979,7 @@ function plannedWorkoutForDate(date = state.activeDate) {
       isRecovery: true
     });
   }
-  return week <= 16 ? runSessionForDate(date, week) : hyroxSessionForDate(date, week);
+  return week <= 26 ? runSessionForDate(date, week) : hyroxSessionForDate(date, week);
 }
 
 function weeklyScheduleForWeek(week) {

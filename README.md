@@ -7,7 +7,8 @@ A personal 31-week HYROX training planner and tracker. It starts on 10 August 20
 - Shows the current week, today's planned session, readiness and basic progress cards.
 - Keeps the supplied 8-week 5K schedule exactly as written.
 - Keeps the supplied 8-week 10K schedule exactly as written.
-- Adds weeks 17-31 as a simple HYROX build with strength, core, body-composition work, compromised running, station practice, specific gym exposure and taper.
+- Keeps the supplied 10-week 15K schedule exactly as written.
+- Adds weeks 27-31 as a simple HYROX build with strength, core, compromised running, station practice, specific gym exposure and taper.
 - Lets you edit any week without changing the core plan generator.
 - Saves daily check-ins, simplified workout logs, exercise tick-offs, short reflections and weekly reviews.
 - Works local-first in the browser and can also sync one JSON state document through the optional API.
@@ -26,7 +27,7 @@ A personal 31-week HYROX training planner and tracker. It starts on 10 August 20
 
 The frontend writes to `hyroxPlannerState` in local storage. It still reads the old `trainingCommandCenterState` and `hyroxProtocolState` keys so existing browser progress can migrate cleanly on first load.
 
-The backend keeps the existing database/container names for deployment compatibility, but user-facing labels are neutral training labels.
+The backend stores local progress in MySQL through the Docker stack.
 
 ## Open
 
