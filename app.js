@@ -1124,6 +1124,75 @@ function printGuide() {
   window.print();
 }
 
+function printableSetRow(line, section) {
+  const setMatch = line.match(/:\s*(\d+)\s*x\s*(.+)$/i);
+  if (setMatch) {
+    return {
+      section,
+      name: line.slice(0, setMatch.index).trim(),
+      target: `${setMatch[1]} x ${setMatch[2]}`,
+      sets: Number(setMatch[1])
+    };
+  }
+
+  const roundMatch = line.match(/^(\d+)\s+(?:easy |relaxed |steady |controlled )?rounds?/i);
+  if (roundMatch) {
+    return { section, name: line, target: "Round", sets: Number(roundMatch[1]) };
+  }
+
+  const targetMatch = line.match(/:\s*(.+)$/);
+  const targetRoundMatch = line.match(/:\s*(\d+)(?:-(\d+))?\s+.*rounds?/i);
+  if (targetMatch && targetRoundMatch) {
+    return {
+      section,
+      name: line.slice(0, targetMatch.index).trim(),
+      target: targetMatch[1],
+      sets: Number(targetRoundMatch[2] || targetRoundMatch[1])
+    };
+  }
+
+  return {
+    section,
+    name: targetMatch ? line.slice(0, targetMatch.index).trim() : line,
+    target: targetMatch ? targetMatch[1] : "Complete",
+    sets: 1
+  };
+}
+
+function printableSetTrackerHtml(session) {
+  const rows = session.segments.flatMap(segment =>
+    segment.items.map(item => printableSetRow(item, segment.title))
+  );
+  const maxSets = Math.min(6, Math.max(1, ...rows.map(row => row.sets)));
+  return `
+    <section class="guide-block print-set-tracker">
+      <h3>Set tracker</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Block</th>
+            <th>Work</th>
+            <th>Target</th>
+            ${Array.from({ length: maxSets }, (_, index) => `<th>Set ${index + 1}</th>`).join("")}
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map(row => `
+            <tr>
+              <td>${escapeHtml(row.section)}</td>
+              <td>${escapeHtml(row.name)}</td>
+              <td>${escapeHtml(row.target)}</td>
+              ${Array.from({ length: maxSets }, (_, index) => `<td>${index < row.sets ? '<span class="print-checkbox"></span>' : ""}</td>`).join("")}
+              <td></td>
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </section>
+  `;
+}
+
 function renderGuide() {
   const container = document.getElementById("guideContent");
   if (!guideSession) {
@@ -1151,6 +1220,7 @@ function renderGuide() {
           <span>${guideSession.duration} min</span>
           <span>${guideSession.intensity}</span>
         </div>
+        ${printableSetTrackerHtml(guideSession)}
         ${guideSession.segments.map(segment => `
           <section class="guide-block">
             <h3>${segment.title}</h3>

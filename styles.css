@@ -747,6 +747,10 @@ h3 {
   color: #c8d8cb;
 }
 
+.print-set-tracker {
+  display: none;
+}
+
 .empty-state {
   padding: 18px;
   border: 1px dashed var(--line-strong);
@@ -905,6 +909,39 @@ h3 {
 
   body.printing-guide .guide-layout {
     display: block;
+  }
+
+  body.printing-guide .print-set-tracker {
+    display: block;
+    margin: 8mm 0;
+  }
+
+  body.printing-guide .print-set-tracker table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9pt;
+  }
+
+  body.printing-guide .print-set-tracker th,
+  body.printing-guide .print-set-tracker td {
+    padding: 5px 6px;
+    border: 1px solid #bbbbbb;
+    color: #111111;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  body.printing-guide .print-set-tracker th {
+    background: #eeeeee;
+    font-weight: 700;
+  }
+
+  body.printing-guide .print-checkbox {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1.4px solid #111111;
+    border-radius: 2px;
   }
 
   body.printing-guide .guide-figure {
